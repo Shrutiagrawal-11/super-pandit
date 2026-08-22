@@ -17,6 +17,9 @@ This document covers the complete technical design: app flow, system architectur
 | Sanskrit grammar parsing | Sanskrit Heritage Engine / `sanskrit_parser`, self-hosted | Rule-based, deterministic, auditable; the documented accuracy leader specifically on classical/epic-register text like the Gita |
 | Pronunciation scoring (Phase 4) | Fine-tuned acoustic model (wav2vec2-based or forced alignment via Montreal Forced Aligner) | The one place a real trained model is justified, no rule-based substitute exists for scoring spoken audio |
 | Audio (voice, Phase 3) | STT/TTS APIs or self-hosted equivalents | Off-the-shelf, not a scripture-knowledge concern |
+| Video delivery (Phase 8) | Pre-built pandit avatar + TTS + lip-sync (e.g. a talking-avatar service or self-hosted lip-sync model), not a generative video model per answer | A delivery mode for already-composed, already-verified answers, not new content generation; avoids the cost/consistency risk of generating fresh video per response |
+| Panchang/muhurat calculation (Phase 11) | Established astronomical/panchang library (e.g. Swiss Ephemeris-based) | This is a calculation problem, not retrieval, held to a "correct calculation method, validated against reference panchangs" standard rather than a citation standard |
+| Camera-based ritual detection (Phase 10, deferred) | Evaluated at that phase: narrow fine-tuned vision model for specific ritual actions, or general multimodal model per-frame, with on-device inference preferred for privacy | Deliberately not decided now; this is a different risk profile (real-time probabilistic detection during a private ritual) than the rest of the architecture, and deserves its own dedicated evaluation, not a default choice made in passing |
 
 ---
 
@@ -43,6 +46,53 @@ Same as above, with STT converting spoken input to text before step 2, and TTS c
 4. Audio is sent to the pronunciation-scoring model (self-hosted, fine-tuned per Section 4).
 5. Score and specific feedback (which syllables/phonemes were off) returned and displayed.
 6. Progress/streak data updated in `practice_sessions`.
+
+### 2.3b Live-guided ritual session flow (Phase 6)
+
+A distinct answer format and interaction model from core Q&A, this is a live, paced session, not a single response.
+
+1. User asks to begin a ritual session (e.g. "guide me through Diwali pooja").
+2. Backend loads the full structured ritual record: `rituals` table (materials list, ordered steps, associated mantras/shloka verse references, tradition/regional variant tags), scholar-authored and reviewed as one complete, ordered unit, not assembled from fragments at answer time.
+3. **Materials list is shown first**, so the user can gather everything before the session proceeds.
+4. **Session loop, one step at a time**:
+   a. The pandit delivers the current step's instruction (text/voice/video per the user's delivery mode).
+   b. The session waits for explicit user confirmation (tap "done," or a recognized spoken confirmation), it does not auto-advance.
+   c. On confirmation, if the step has an associated mantra, the pandit recites it (TTS with verified Sanskrit pronunciation, reusing Phase 3/4), shown in Sanskrit with citation, same trust standard as core Q&A.
+   d. Advance to the next step; repeat until the ritual's step sequence is complete.
+5. Regional variant notes surfaced where the ritual record has more than one tagged variant, labeled rather than silently picking one.
+6. Same post-generation guardrail check as core Q&A: every step/material/mantra shown must map to the retrieved ritual record, nothing invented to fill gaps.
+7. Session state (current step index, confirmations) held server-side per active session so a dropped connection doesn't lose progress.
+8. **Camera-based automatic step detection is explicitly out of scope for this flow** (see Section 2.3d, Phase 10); step 4b is manual confirmation only at this phase, by deliberate design, not as a placeholder for something unfinished.
+
+### 2.3c AI pandit video delivery (Phase 8)
+
+Not a separate content pipeline. This reuses the exact output of 2.1 (core Q&A) or 2.3b (ritual guidance), changing only the delivery format.
+
+1. The same verified answer is generated exactly as in 2.1/2.3b.
+2. Instead of (or in addition to) returning text, the composed answer's text is sent to a TTS step (reusing the verified Sanskrit pronunciation from Phase 3/4) and rendered as a talking avatar (pre-built pandit avatar driven by TTS + lip-sync).
+3. No new content is generated for video. If a user asks the same question via text, voice, or video mode, the underlying answer is identical, only the presentation differs.
+4. User selects delivery mode (text / voice / video) as a preference; the pipeline through step 1 doesn't change based on that choice.
+
+### 2.3d Camera-based ritual step detection (Phase 10, deferred)
+
+Not built at MVP or in Phase 6. Documented here so its scope and constraints are decided in advance, not improvised later.
+
+1. During a live-guided session (2.3b), with explicit user opt-in, the camera stream is analyzed to recognize whether the current step's action (e.g. "diya lit") appears to have occurred.
+2. On a high-confidence detection, the session auto-advances exactly as if the user had tapped "done"; manual confirmation remains available at all times as an override.
+3. On low or uncertain confidence, the session does not guess, it falls back to waiting for manual confirmation, consistent with the project's core "never guess" rule extended to physical-action detection.
+4. Privacy: video processing evaluated for on-device/local inference before defaulting to a cloud vision service, given this occurs during a private religious moment; no video retained beyond what the detection step itself requires.
+5. Technical approach to be evaluated at Phase 10, not fixed now: likely either a small vision model fine-tuned on specific ritual actions (a narrow, evaluable, auditable-by-eval task, similar in spirit to the pronunciation-scoring justification in Section 4) or a general multimodal model prompted per-frame, tradeoffs (cost, latency, on-device feasibility, accuracy) to be weighed when this phase is actually scoped.
+
+### 2.3e Panchang & muhurat flow (Phase 11)
+
+A different kind of data from the rest of the app: calculated, not retrieved-and-cited scripture text.
+
+1. User asks for panchang or muhurat for a date/festival (e.g. "what's the muhurat for Diwali pooja this year").
+2. Backend resolves the user's location (with consent) for sunrise/sunset and timezone-accurate calculation.
+3. A panchang/astronomical calculation library (e.g. Swiss Ephemeris-based) computes the result, this is a calculation call, not a vector-retrieval call, and doesn't touch `verse_embeddings` or the scripture knowledge graph.
+4. If regional calendar conventions disagree on the result (e.g. Amanta vs Purnimanta systems), both are computed and shown, labeled by convention, not silently resolved to one.
+5. Response composed and returned in the user's chosen delivery mode (text/voice/video), reusing the same delivery-mode infrastructure as 2.1/2.3c, but the underlying data comes from the calculation engine, not the RAG pipeline.
+6. Accuracy validated against known reference panchangs during development and periodically thereafter, this is the equivalent of the QA harness (Section on Phase 1) for this specific, different kind of correctness.
 
 ### 2.4 Scholar review flow (content pipeline, all phases)
 1. New/candidate content (verses, term meanings, KG facts, ritual steps) is entered into a staging area via an internal review tool (not user-facing).
@@ -119,9 +169,13 @@ The core content principle holds: **no fine-tuning of the composition LLM on scr
 - `lexicon_terms`: term, verified meaning, scholar_id, status. Joined via `term_verse_links` (many-to-many, since a term recurs across verses with a per-verse-verified meaning).
 - `entities` and `entity_relations`: knowledge graph nodes and edges (subject_id, predicate, object_id). `entity_verse_links` ties entities to the verses/stories they appear in.
 - `verse_embeddings`: verse_id FK, embedding vector, model_version. Denormalized alongside verses rather than separated out, since this is a read-heavy, low-write path.
+- `rituals`: name, tradition/region tag, materials list (structured, e.g. `jsonb` array of item + quantity/note), preparation steps, ordered procedure steps (each step optionally linked to a mantra), status/scholar_id. A ritual is authored and reviewed as one complete unit, not assembled from fragments at answer time, since a partial or reordered procedure could be actively harmful for a user following it step by step, unlike a partial verse explanation.
+- `ritual_verse_links`: ties a ritual step's recited mantra/shloka to its `verses` row, so mantra citations follow the same trust standard as core Q&A.
+- `ritual_sessions`: user_id, ritual_id, current_step_index, started_at, status (in-progress/completed/abandoned). Holds live session pacing state (Section 2.3b) server-side so a dropped connection doesn't lose the user's place mid-ritual.
 - `users`: accounts.
 - `practice_sessions` / `streaks`: user_id, date, activity_type, score. Append-friendly, indexed by user_id + date.
 - `conversations` and `messages`: standard chat history shape. Denormalize which verses/terms were cited directly onto the message row, rather than re-joining at read time, since chat history is read far more often than written.
+- **Panchang/muhurat (Phase 11) deliberately has no dedicated verified-fact table here.** It's calculated on demand from a panchang/astronomical library given a date and location, not stored as a scholar-verified fact like the tables above, storing computed results would risk them going stale or drifting from the calculation library's own corrections. If caching becomes necessary for performance, cache by (date, location, convention) as a derived, invalidatable cache, not as a source of truth.
 
 ### Audit trail for scholar corrections
 
@@ -168,6 +222,10 @@ yantras/
         voice.py                  # STT/TTS endpoints (Phase 3)
         pronunciation.py          # scoring endpoints (Phase 4)
         practice.py               # daily tracking/streaks (Phase 5)
+        rituals.py                # /ritual/session endpoints (Phase 6): start session, get current step, confirm step (recites mantra, advances)
+        video.py                  # Phase 8: wraps chat/ritual answers with TTS + avatar lip-sync, no separate content generation
+        panchang.py               # /panchang, /muhurat endpoints (Phase 11), calls the astronomical calculation library
+        ritual_vision.py          # Phase 10 (deferred): camera-based step detection endpoint, not implemented at MVP
       core/
         config.py                 # settings, API keys via env vars, never hardcoded
         security.py               # auth, request validation
@@ -202,12 +260,15 @@ yantras/
         VoiceScreen.tsx
         PronunciationScreen.tsx
         PracticeTrackerScreen.tsx
-        RitualGuideScreen.tsx
-        VideoLibraryScreen.tsx      # Phase 8
+        RitualGuideScreen.tsx        # live-guided session: materials checklist, then one-step-at-a-time pacing, Phase 6
+        PanchangScreen.tsx           # panchang/muhurat lookup, Phase 11
       components/
         ChatBubble.tsx
         VerseCitationCard.tsx
         StreakTracker.tsx
+        RitualStepCard.tsx           # current step instruction + "done" confirmation + mantra recitation, Phase 6
+        PanditAvatarPlayer.tsx       # Phase 8: renders the talking-avatar delivery mode for any answer (chat or ritual)
+        CameraStepDetector.tsx       # Phase 10 (deferred): not implemented at MVP, placeholder for camera-based step confirmation
       services/
         api.ts                     # backend API client
         secureScreen.ts            # FLAG_SECURE / capture-detection integration
