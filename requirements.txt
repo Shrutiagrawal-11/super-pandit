@@ -1,0 +1,9 @@
+psycopg[binary]
+pypdf
+pytesseract
+pdf2image
+fastapi
+uvicorn
+jinja2
+python-multipart
+pytest

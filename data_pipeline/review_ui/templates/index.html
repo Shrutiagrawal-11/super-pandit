@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>Scripture Ingestion Pipeline</title></head>
+<body style="font-family: sans-serif; max-width: 600px; margin: 40px auto;">
+  <h1>Scripture Ingestion Pipeline</h1>
+  {% if error %}<p style="color: red;">{{ error }}</p>{% endif %}
+  <form action="/ingest" method="post" enctype="multipart/form-data">
+    <p>
+      <label>Scripture name (e.g. "Bhagavad Gita"):</label><br>
+      <input type="text" name="scripture_name" required style="width: 100%;">
+    </p>
+    <h3>Primary source (production text)</h3>
+    <p>
+      <label>Title / edition:</label><br>
+      <input type="text" name="primary_title" required style="width: 100%;">
+    </p>
+    <p><input type="file" name="primary_pdf" accept="application/pdf" required></p>
+
+    <h3>Cross-check source 1 (optional)</h3>
+    <p><input type="text" name="check1_title" placeholder="Title" style="width: 100%;"></p>
+    <p><input type="file" name="check1_pdf" accept="application/pdf"></p>
+
+    <h3>Cross-check source 2 (optional)</h3>
+    <p><input type="text" name="check2_title" placeholder="Title" style="width: 100%;"></p>
+    <p><input type="file" name="check2_pdf" accept="application/pdf"></p>
+
+    <p><button type="submit">Extract &amp; Compare</button></p>
+  </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Scholar Review</title></head>
+<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto;">
+  <h1>Scholar Review — Mismatches Pending Decision</h1>
+  {% if not mismatches %}
+    <p>No mismatched verses awaiting review.</p>
+  {% endif %}
+  {% for id, scripture, chapter, verse, text, cc_status, s_status in mismatches %}
+  <div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+    <strong>{{ scripture }} {{ chapter }}.{{ verse }}</strong>
+    <p>{{ text }}</p>
+    <form action="/review/{{ id }}/decide" method="post" style="display:inline;">
+      <button name="decision" value="approve">APPROVE</button>
+      <button name="decision" value="reject">REJECT</button>
+      <button name="decision" value="needs_review">NEEDS FURTHER REVIEW</button>
+    </form>
+  </div>
+  {% endfor %}
+</body>
+</html>

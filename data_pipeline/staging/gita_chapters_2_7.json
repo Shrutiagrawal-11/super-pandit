@@ -1,0 +1,4494 @@
+[
+  {
+    "chapter": 6,
+    "verse_number": 1,
+    "sanskrit_text": "anāśritaḥ karma-phalaṃ kāryaṃ karma karoti yaḥ |\nsa saṃnyāsī ca yogī ca na niragnir na cākriyaḥ ||1||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "anāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ | sa saṃnyāsī ca yogī ca na niragnir na cākriyaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "anāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ | sa saṃnyāsī ca yogī ca na niragnir na cākriyaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 2,
+    "sanskrit_text": "yaṃ saṃnyāsam iti prāhur yogaṃ taṃ viddhi pāṇḍava |\nna hy asaṃnyasta-saṃkalpo yogī bhavati kaścana ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yaṃ saṃnyāsam iti prāhur yogaṃ taṃ viddhi pāṇḍava | na hy asaṃnyastasaṃkalpo yogī bhavati kaścana",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yaṃ saṃnyāsam iti prāhur yogaṃ taṃ viddhi pāṇḍava | na hy asaṃnyastasaṃkalpo yogī bhavati kaścana",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 3,
+    "sanskrit_text": "ārurukṣor muner yogaṃ karma kāraṇam ucyate |\nyogārūḍhasya tasyaiva śamaḥ kāraṇam ucyate ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "ārurukṣor muner yogaṃ karma kāraṇam ucyate | yogārūḍhasya tasyaiva śamaḥ kāraṇam ucyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "ārurukṣor muner yogaṃ karma kāraṇam ucyate | yogārūḍhasya tasyaiva śamaḥ kāraṇam ucyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 4,
+    "sanskrit_text": "yadā hi nendriyārtheṣu na karmasv anuṣajjate |\nsarva-saṃkalpa-saṃnyāsī yogārūḍhas tadocyate ||4||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yadā hi nendriyārtheṣu na karmasv anuṣajjate | sarvasaṃkalpasaṃnyāsī yogārūḍhas tadocyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yadā hi nendriyārtheṣu na karmasv anuṣajjate | sarvasaṃkalpasaṃnyāsī yogārūḍhas tadocyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 5,
+    "sanskrit_text": "uddhared ātmanātmānaṃ nātmānam avasādayet |\nātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ ||5||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "uddhared ātmanātmānaṃ nātmānam avasādayet | ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "uddhared ātmanātmānaṃ nātmānam avasādayet | ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 6,
+    "sanskrit_text": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ |\nanātmanas tu śatrutve vartetātmaiva śatruvat ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ | anātmanas tu śatrutve vartetātmaiva śatruvat",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ | anātmanas tu śatrutve vartetātmaiva śatruvat",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 7,
+    "sanskrit_text": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ |\nśītoṣṇa-sukha-duḥkheṣu tathā mānāpamānayoḥ ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ | śītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ | śītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 8,
+    "sanskrit_text": "jñāna-vijñāna-tṛptātmā kūṭastho vijitendriyaḥ |\nyukta ity ucyate yogī sama-loṣṭāśma-kāñcanaḥ ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "jñānavijñānatṛptātmā kūṭastho vijitendriyaḥ | yukta ity ucyate yogī samaloṣṭāśmakāñcanaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "jñānavijñānatṛptātmā kūṭastho vijitendriyaḥ | yukta ity ucyate yogī samaloṣṭāśmakāñcanaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 9,
+    "sanskrit_text": "suhṛn-mitrāry-udāsīna-madhyastha-dveṣya-bandhuṣu |\nsādhuṣv api ca pāpeṣu sama-buddhir viśiṣyate ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "suhṛnmitrāryudāsīnamadhyasthadveṣyabandhuṣu | sādhuṣv api ca pāpeṣu samabuddhir viśiṣyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "suhṛnmitrāryudāsīnamadhyasthadveṣyabandhuṣu | sādhuṣv api ca pāpeṣu samabuddhir viśiṣyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 10,
+    "sanskrit_text": "yogī yuñjīta satatam ātmānaṃ rahasi sthitaḥ |\nekākī yata-cittātmā nirāśīr aparigrahaḥ ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yogī yuñjīta satatam ātmānaṃ rahasi sthitaḥ | ekākī yatacittātmā nirāśīr aparigrahaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yogī yuñjīta satatam ātmānaṃ rahasi sthitaḥ | ekākī yatacittātmā nirāśīr aparigrahaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 11,
+    "sanskrit_text": "śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ |\nnātyucchritaṃ nātinīcaṃ cailājinakuśottaram ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ | nātyucchritaṃ nātinīcaṃ cailājinakuśottaram",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ | nātyucchritaṃ nātinīcaṃ cailājinakuśottaram",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 12,
+    "sanskrit_text": "tatraikāgraṃ manaḥ kṛtvā yata-cittendriya-kriyaḥ |\nupaviśyāsane yuñjyād yogam ātma-viśuddhaye ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "tatraikāgraṃ manaḥ kṛtvā yatacittendriyakriyaḥ | upaviśyāsane yuñjyād yogam ātmaviśuddhaye",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "tatraikāgraṃ manaḥ kṛtvā yatacittendriyakriyaḥ | upaviśyāsane yuñjyād yogam ātmaviśuddhaye",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 13,
+    "sanskrit_text": "samaṃ kāya-śiro-grīvaṃ dhārayann acalaṃ sthiraḥ |\nsaṃprekṣya nāsikāgraṃ svaṃ diśaś cānavalokayan ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "samaṃ kāyaśirogrīvaṃ dhārayann acalaṃ sthiraḥ | saṃprekṣya nāsikāgraṃ svaṃ diśaś cānavalokayan",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "samaṃ kāyaśirogrīvaṃ dhārayann acalaṃ sthiraḥ | samprekṣya (Devanagari: सम्प्रेक्ष्य, m+virama before p) nāsikāgraṃ svaṃ diśaś cānavalokayan",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 14,
+    "sanskrit_text": "praśāntātmā vigata-bhīr brahmacāri-vrate sthitaḥ |\nmanaḥ saṃyamya mac-citto yukta āsīta mat-paraḥ ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "praśāntātmā vigatabhīr brahmacārivrate sthitaḥ | manaḥ saṃyamya maccitto yukta āsīta matparaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "praśāntātmā vigatabhīr brahmacārivrate sthitaḥ | manaḥ saṃyamya maccitto yukta āsīta matparaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 15,
+    "sanskrit_text": "yuñjann evaṃ sadātmānaṃ yogī niyata-mānasaḥ |\nśāntiṃ nirvāṇa-paramāṃ mat-saṃsthām adhigacchati ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yuñjann evaṃ sadātmānaṃ yogī niyatamānasaḥ | śāntiṃ nirvāṇaparamāṃ matsaṃsthām adhigacchati",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yuñjann evaṃ sadātmānaṃ yogī niyatamānasaḥ | śāntiṃ nirvāṇaparamāṃ matsaṃsthām adhigacchati",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 16,
+    "sanskrit_text": "nātyaśnatas tu yogo 'sti na caikāntam anaśnataḥ |\nna cātisvapna-śīlasya jāgrato naiva cārjuna ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "nātyaśnatas tu yogosti na caikāntam anaśnataḥ | na cātisvapnaśīlasya jāgrato naiva cārjuna",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "nātyaśnatas tu yogo'sti na caikāntam anaśnataḥ | na cātisvapnaśīlasya jāgrato naiva cārjuna",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 17,
+    "sanskrit_text": "yuktāhāra-vihārasya yukta-ceṣṭasya karmasu |\nyukta-svapnāvabodhasya yogo bhavati duḥkha-hā ||17||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yuktāhāravihārasya yuktaceṣṭasya karmasu | yuktasvapnāvabodhasya yogo bhavati duḥkhahā",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yuktāhāravihārasya yuktaceṣṭasya karmasu | yuktasvapnāvabodhasya yogo bhavati duḥkhahā",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 18,
+    "sanskrit_text": "yadā viniyataṃ cittam ātmany evāvatiṣṭhate |\nniḥspṛhaḥ sarva-kāmebhyo yukta ity ucyate tadā ||18||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yadā viniyataṃ cittam ātmany evāvatiṣṭhate | niḥspṛhaḥ sarvakāmebhyo yukta ity ucyate tadā",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yadā viniyataṃ cittam ātmany evāvatiṣṭhate | niḥspṛhaḥ sarvakāmebhyo yukta ity ucyate tadā",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 19,
+    "sanskrit_text": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā |\nyogino yata-cittasya yuñjato yogam ātmanaḥ ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yathā dīpo nivātastho neṅgate sopamā smṛtā | yogino yatacittasya yuñjato yogam ātmanaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yathā dīpo nivātastho neṅgate sopamā smṛtā | yogino yatacittasya yuñjato yogam ātmanaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 20,
+    "sanskrit_text": "yatroparamate cittaṃ niruddhaṃ yoga-sevayā |\nyatra caivātmanātmānaṃ paśyann ātmani tuṣyati ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text; manually extracted due to a malformed nested <p> tag in the source HTML at this verse group)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yatroparamate cittaṃ niruddhaṃ yogasevayā | yatra caivātmanātmānaṃ paśyann ātmani tuṣyati",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yatroparamate cittaṃ niruddhaṃ yogasevayā | yatra caivātmanātmānaṃ paśyann ātmani tuṣyati",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 21,
+    "sanskrit_text": "sukham ātyantikaṃ yat tad buddhi-grāhyam atīndriyam |\nvetti yatra na caivāyaṃ sthitaś calati tattvataḥ ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text; manually extracted due to a malformed nested <p> tag in the source HTML at this verse group)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "sukham ātyantikaṃ yat tad buddhigrāhyam atīndriyam | vetti yatra na caivāyaṃ sthitaś calati tattvataḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sukham ātyantikaṃ yat tad buddhigrāhyam atīndriyam | vetti yatra na caivāyaṃ sthitaś calati tattvataḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 22,
+    "sanskrit_text": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ |\nyasmin sthito na duḥkhena guruṇāpi vicālyate ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ | yasmin sthito na duḥkhena guruṇāpi vicālyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ | yasmin sthito na duḥkhena guruṇāpi vicālyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 23,
+    "sanskrit_text": "taṃ vidyād duḥkha-saṃyoga-viyogaṃ yoga-saṃjñitam |\nsa niścayena yoktavyo yogo 'nirviṇṇa-cetasā ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "taṃ vidyād duḥkhasaṃyogaviyogaṃ yogasaṃjñitam | sa niścayena yoktavyo yogonirviṇṇacetasā",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "taṃ vidyād duḥkhasaṃyogaviyogaṃ yogasaṃjñitam | sa niścayena yoktavyo yogo'nirviṇṇacetasā",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 24,
+    "sanskrit_text": "saṃkalpa-prabhavān kāmāṃs tyaktvā sarvān aśeṣataḥ |\nmanasaivendriya-grāmaṃ viniyamya samantataḥ ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "saṅkalpaprabhavān kāmāṃs tyaktvā sarvān aśeṣataḥ | manasaivendriyagrāmaṃ viniyamya samantataḥ",
+        "match": false
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "saṃkalpaprabhavān kāmāṃs tyaktvā sarvān aśeṣataḥ | manasaivendriyagrāmaṃ viniyamya samantataḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 25,
+    "sanskrit_text": "śanaiḥ śanair uparamed buddhyā dhṛti-gṛhītayā |\nātma-saṃsthaṃ manaḥ kṛtvā na kiṃcid api cintayet ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "śanaiḥ śanair uparamed buddhyā dhṛtigṛhītayā | ātmasaṃsthaṃ manaḥ kṛtvā na kiṃcid api cintayet",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "śanaiḥ śanair uparamed buddhyā dhṛtigṛhītayā | ātmasaṃsthaṃ manaḥ kṛtvā na kiṃcid api cintayet",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 26,
+    "sanskrit_text": "yato yato niścarati manaś cañcalam asthiram |\ntatas tato niyamyaitad ātmany eva vaśaṃ nayet ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yato yato niścarati manaś cañcalam asthiram | tatas tato niyamyaitad ātmany eva vaśaṃ nayet",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yato yato niścarati manaś cañcalam asthiram | tatas tato niyamyaitad ātmany eva vaśaṃ nayet",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 27,
+    "sanskrit_text": "praśānta-manasaṃ hy enaṃ yoginaṃ sukham uttamam |\nupaiti śānta-rajasaṃ brahma-bhūtam akalmaṣam ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "praśāntamanasaṃ hy enaṃ yoginaṃ sukham uttamam | upaiti śāntarajasaṃ brahmabhūtam akalmaṣam",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "praśāntamanasaṃ hy enaṃ yoginaṃ sukham uttamam | upaiti śāntarajasaṃ brahmabhūtam akalmaṣam",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 28,
+    "sanskrit_text": "yuñjann evaṃ sadātmānaṃ yogī vigata-kalmaṣaḥ |\nsukhena brahma-saṃsparśam atyantaṃ sukham aśnute ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yuñjann evaṃ sadātmānaṃ yogī vigatakalmaṣaḥ | sukhena brahmasaṃsparśam atyantaṃ sukham aśnute",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yuñjann evaṃ sadātmānaṃ yogī vigatakalmaṣaḥ | sukhena brahmasaṃsparśam atyantaṃ sukham aśnute",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 29,
+    "sanskrit_text": "sarva-bhūta-stham ātmānaṃ sarva-bhūtāni cātmani |\nīkṣate yoga-yuktātmā sarvatra sama-darśanaḥ ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani | īkṣate yogayuktātmā sarvatra samadarśanaḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani | īkṣate yogayuktātmā sarvatra samadarśanaḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 30,
+    "sanskrit_text": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati |\ntasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati ||30||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati | tasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati | tasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 31,
+    "sanskrit_text": "sarva-bhūta-sthitaṃ yo māṃ bhajaty ekatvam āsthitaḥ |\nsarvathā vartamāno 'pi sa yogī mayi vartate ||31||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "sarvabhūtasthitaṃ yo māṃ bhajaty ekatvam āsthitaḥ | sarvathā vartamānopi sa yogī mayi vartate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sarvabhūtasthitaṃ yo māṃ bhajaty ekatvam āsthitaḥ | sarvathā vartamāno'pi sa yogī mayi vartate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 32,
+    "sanskrit_text": "ātmaupamyena sarvatra samaṃ paśyati yo 'rjuna |\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ ||32||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "ātmaupamyena sarvatra samaṃ paśyati yorjuna | sukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "ātmaupamyena sarvatra samaṃ paśyati yo'rjuna | sukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 33,
+    "sanskrit_text": "arjuna uvāca\nyo 'yaṃ yogas tvayā proktaḥ sāmyena madhusūdana |\netasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām ||33||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "[speaker tag arjuna uvāca present] yoyaṃ yogas tvayā proktaḥ sāmyena madhusūdana | etasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "[speaker tag present] yo'yaṃ yogas tvayā proktaḥ sāmyena madhusūdana | etasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 34,
+    "sanskrit_text": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham |\ntasyāhaṃ nigrahaṃ manye vāyor iva suduṣkaram ||34||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham | tasyāhaṃ nigrahaṃ manye vāyor iva suduṣkaram",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham | tasyāhaṃ nigrahaṃ manye vāyor iva suduṣkaram",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 35,
+    "sanskrit_text": "śrī-bhagavān uvāca\nasaṃśayaṃ mahābāho mano durṇigrahaṃ calam |\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||35||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "[speaker tag present] asañśayaṃ mahābāho mano durnigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+        "match": false
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "[speaker tag present] asaṃśayaṃ mahābāho mano durnigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 36,
+    "sanskrit_text": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ |\nvaśyātmanā tu yatatā śakyo 'vāptum upāyataḥ ||36||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ | vaśyātmanā tu yatatā śakyovāptum upāyataḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ | vaśyātmanā tu yatatā śakyo'vāptum upāyataḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 37,
+    "sanskrit_text": "arjuna uvāca\nayatiḥ śraddhayopeto yogāc calita-mānasaḥ |\naprāpya yoga-saṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati ||37||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "[speaker tag present] ayatiḥ śraddhayopeto yogāc calitamānasaḥ | aprāpya yogasaṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "[speaker tag present] ayatiḥ śraddhayopeto yogāc calitamānasaḥ | aprāpya yogasaṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 38,
+    "sanskrit_text": "kaccin nobhaya-vibhraṣṭaś chinnābhram iva naśyati |\napratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi ||38||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "kacchin nobhayavibhraṣṭaś chinnābhram iva naśyati | apratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi",
+        "match": false
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "kaccin nobhayavibhraṣṭaś chinnābhram iva naśyati | apratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 39,
+    "sanskrit_text": "etan me saṃśayaṃ kṛṣṇa chettum arhasy aśeṣataḥ |\ntvad-anyaḥ saṃśayasyāsya chettā na hy upapadyate ||39||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "etan me saṃśayaṃ kṛṣṇa chettum arhasy aśeṣataḥ | tvadanyaḥ saṃśayasyāsya chettā na hy upapadyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "etan me saṃśayaṃ kṛṣṇa chettum arhasy aśeṣataḥ | tvadanyaḥ saṃśayasyāsya chettā na hy upapadyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 40,
+    "sanskrit_text": "śrī-bhagavān uvāca\npārtha naiveha nāmutra vināśas tasya vidyate |\nna hi kalyāṇa-kṛt kaścid durgatiṃ tāta gacchati ||40||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "[speaker tag present] pārtha naiveha nāmutra vināśas tasya vidyate | na hi kalyāṇakṛt kaścid durgatiṃ tāta gacchati",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "[speaker tag present] pārtha naiveha nāmutra vināśas tasya vidyate | na hi kalyāṇakṛt kaścid durgatiṃ tāta gacchati",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 41,
+    "sanskrit_text": "prāpya puṇya-kṛtāṃ lokān uṣitvā śāśvatīḥ samāḥ |\nśucīnāṃ śrīmatāṃ gehe yoga-bhraṣṭo 'bhijāyate ||41||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "prāpya puṇyakṛtāṃ lokān uṣitvā śāśvatīḥ samāḥ | śucīnāṃ śrīmatāṃ gehe yogabhraṣṭobhijāyate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "prāpya puṇyakṛtāṃ lokān uṣitvā śāśvatīḥ samāḥ | śucīnāṃ śrīmatāṃ gehe yogabhraṣṭo'bhijāyate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 42,
+    "sanskrit_text": "atha vā yoginām eva kule bhavati dhīmatām |\netad dhi durlabhataraṃ loke janma yad īdṛśam ||42||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "athavā yoginām eva kule bhavati dhīmatām | etad dhi durlabhataraṃ loke janma yad īdṛśam",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "athavā yoginām eva kule bhavati dhīmatām | etad dhi durlabhataraṃ loke janma yad īdṛśam",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 43,
+    "sanskrit_text": "tatra taṃ buddhi-saṃyogaṃ labhate paurvadehikam\nyatate ca tato bhūyaḥ saṃsiddhau kurunandana ||43||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text; note GRETIL's page lacks the pada-end danda after 'paurvadehikam', likely a source typo)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "tatra taṃ buddhisaṃyogaṃ labhate paurvadehikam | yatate ca tato bhūyaḥ saṃsiddhau kurunandana",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "tatra taṃ buddhisaṃyogaṃ labhate paurvadehikam | yatate ca tato bhūyaḥ saṃsiddhau kurunandana",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 44,
+    "sanskrit_text": "pūrvābhyāsena tenaiva hriyate hy avaśo 'pi saḥ |\njijñāsur api yogasya śabda-brahmātivartate ||44||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "pūrvābhyāsena tenaiva hriyate hy avaśopi saḥ | jijñāsur api yogasya śabdabrahmātivartate",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "pūrvābhyāsena tenaiva hriyate hy avaśo'pi saḥ | jijñāsur api yogasya śabdabrahmātivartate",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 45,
+    "sanskrit_text": "prayatnād yat tu yogī saṃśuddha-kilbiṣaḥ |\naneka-janma-saṃsiddhas tato yāti parāṃ gatim ||45||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text; NOTE - this GRETIL reading appears to omit 'yatamānas' from the first pada, see notes)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "prayatnād yatamānas tu yogī saṃśuddhakilbiṣaḥ | anekajanmasaṃsiddhas tato yāti parāṃ gatim",
+        "match": false
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "prayatnād yatamānas tu yogī saṃśuddhakilbiṣaḥ | anekajanmasaṃsiddhas tato yāti parāṃ gatim",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 46,
+    "sanskrit_text": "tapasvibhyo 'dhiko yogī jñānibhyo 'pi mato 'dhikaḥ |\nkarmibhyaś cādhiko yogī tasmād yogī bhavārjuna ||46||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "tapasvibhyodhiko yogī jñānibhyopi matodhikaḥ | karmibhyaś cādhiko yogī tasmād yogī bhavārjuna",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "tapasvibhyo'dhiko yogī jñānibhyo'pi mato'dhikaḥ | karmibhyaś cādhiko yogī tasmād yogī bhavārjuna",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "verse_number": 47,
+    "sanskrit_text": "yoginām api sarveṣāṃ mad-gatenāntarātmanā |\nśraddhāvān bhajate yo māṃ sa me yuktatamo mataḥ ||47||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse text)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sacred-texts.com (hin/bgs, via Wayback Machine archive)",
+        "text": "yoginām api sarveṣāṃ madgatenāntarātmanā | śraddhāvān bhajate yo māṃ sa me yuktatamo mataḥ",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yoginām api sarveṣāṃ madgatenāntarātmanā | śraddhāvān bhajate yo māṃ sa me yuktatamo mataḥ",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 1,
+    "sanskrit_text": "arjuna uvāca | saṃnyāsaṃ karmaṇāṃ kṛṣṇa punar yogaṃ ca śaṃsasi | yac chreya etayor ekaṃ tan me brūhi suniścitam ||1||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "arjuna uvāca | saṃnyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi | yacchreya etayorekaṃ tanme brūhi suniścitam ||5-1||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 2,
+    "sanskrit_text": "śrī-bhagavān uvāca | saṃnyāsaḥ karma-yogaś ca niḥśreyasa-karāv ubhau | tayos tu karma-saṃnyāsāt karma-yogo viśiṣyate ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "śrībhagavānuvāca | saṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau | tayostu karmasaṃnyāsātkarmayogo viśiṣyate ||5-2||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 3,
+    "sanskrit_text": "jñeyaḥ sa nitya-saṃnyāsī yo na dveṣṭi na kāṅkṣati | nirdvandvo hi mahā-bāho sukhaṃ bandhāt pramucyate ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati | nirdvandvo hi mahābāho sukhaṃ bandhātpramucyate ||5-3||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 4,
+    "sanskrit_text": "sāṃkhya-yogau pṛthag bālāḥ pravadanti na paṇḍitāḥ | ekam apy āsthitaḥ samyag ubhayor vindate phalam ||4||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sāṃkhyayogau pṛthagbālāḥ pravadanti na paṇḍitāḥ | ekamapyāsthitaḥ samyagubhayorvindate phalam ||5-4||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 5,
+    "sanskrit_text": "yat sāṃkhyaiḥ prāpyate sthānaṃ tad yogair api gamyate | ekaṃ sāṃkhyaṃ ca yogaṃ ca yaḥ paśyati sa paśyati ||5||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yatsāṃkhyaiḥ prāpyate sthānaṃ tadyogairapi gamyate | ekaṃ sāṃkhyaṃ ca yogaṃ ca yaḥ paśyati sa: paśyati ||5-5||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 6,
+    "sanskrit_text": "saṃnyāsas tu mahābāho duḥkham āptum ayogataḥ | yoga-yukto munir brahma nacireṇādhigacchati ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "saṃnyāsastu mahābāho duḥkhamāptumayogataḥ | yogayukto munirbrahma nacireṇādhigacchati ||5-6||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 7,
+    "sanskrit_text": "yoga-yukto viśuddhātmā vijitātmā jitendriyaḥ | sarva-bhūtātma-bhūtātmā kurvann api na lipyate ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ | sarvabhūtātmabhūtātmā kurvannapi na lipyate ||5-7||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 8,
+    "sanskrit_text": "naiva kiṃ cit karomīti yukto manyeta tattva-vit | paśyañ śṛṇvan spṛśañ jighrann aśnan gacchan svapañ śvasan ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "naiva kiṃcitkaromīti yukto manyeta tattvavit | paśyañ śrṛṇvan spṛśañjighrannaśnangacchansvapañśvasan ||5-8||",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 9,
+    "sanskrit_text": "pralapan visṛjan gṛhṇann unmiṣan nimiṣann api | indriyāṇīndriyārtheṣu vartanta iti dhārayan ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "pralapanvisṛjangṛhṇannunmiṣannimiṣannapi | indriyāṇīndriyārtheṣu vartanta iti dhārayan ||5-9||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 10,
+    "sanskrit_text": "brahmaṇy ādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ | lipyate na sa pāpena padma-patram ivāmbhasā ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ | lipyate na sa pāpena padmapatramivāmbhasā ||5-10||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 11,
+    "sanskrit_text": "kāyena manasā buddhyā kevalair indriyair api | yoginaḥ karma kurvanti saṅgaṃ tyaktvātma-śuddhaye ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "kāyena manasā buddhyā kevalairindriyairapi | yoginaḥ karma kurvanti saṅgaṃ tyaktvātmaśuddhaye ||5-11||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 12,
+    "sanskrit_text": "yuktaḥ karma-phalaṃ tyaktvā śāntim āpnoti naiṣṭhikīm | ayuktaḥ kāma-kāreṇa phale sakto nibadhyate ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yuktaḥ karmaphalaṃ tyaktvā śāntimāpnoti naiṣṭhikīm | ayuktaḥ kāmakāreṇa phale sakto nibadhyate ||5-12||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 13,
+    "sanskrit_text": "sarva-karmāṇi manasā saṃnyasyāste sukhaṃ vaśī | nava-dvāre pure dehī naiva kurvan na kārayan ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sarvakarmāṇi manasā saṃnyasyāste sukhaṃ vaśī | navadvāre pure dehī naiva kurvanna kārayan ||5-13||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 14,
+    "sanskrit_text": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ | na karma-phala-saṃyogaṃ svabhāvas tu pravartate ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ | na karmaphalasaṃyogaṃ svabhāvastu pravartate ||5-14||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 15,
+    "sanskrit_text": "nādatte kasya cit pāpaṃ na caiva sukṛtaṃ vibhuḥ | ajñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "nādatte kasyacitpāpaṃ na caiva sukṛtaṃ vibhuḥ | ajñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ ||5-15||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 16,
+    "sanskrit_text": "jñānena tu tad ajñānaṃ yeṣāṃ nāśitam ātmanaḥ | teṣām ādityavaj jñānaṃ prakāśayati tatparam ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmanaḥ | teṣāmādityavajjñānaṃ prakāśayati tatparam ||5-16||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 17,
+    "sanskrit_text": "tad-buddhayas tad-ātmānas tan-niṣṭhās tat-parāyaṇāḥ | gacchanty apunar-āvṛttiṃ jñāna-nirdhūta-kalmaṣāḥ ||17||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "tadbuddhayastadātmānastanniṣṭhāstatparāyaṇāḥ | gacchantyapunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ ||5-17||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 18,
+    "sanskrit_text": "vidyā-vinaya-saṃpanne brāhmaṇe gavi hastini | śuni caiva śvapāke ca paṇḍitāḥ sama-darśinaḥ ||18||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "vidyāvinayasaṃpanne brāhmaṇe gavi hastini | śuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||5-18||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 19,
+    "sanskrit_text": "ihaiva tair jitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ | nirdoṣaṃ hi samaṃ brahma tasmād brahmaṇi te sthitāḥ ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "ihaiva tairjitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ | nirdoṣaṃ hi samaṃ brahma tasmādbrahmaṇi te sthitāḥ ||5-19||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 20,
+    "sanskrit_text": "na prahṛṣyet priyaṃ prāpya nodvijet prāpya cāpriyam | sthira-buddhir asaṃmūḍho brahmavid brahmaṇi sthitaḥ ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam | sthirabuddhirasaṃmūḍho brahmavidbrahmaṇi sthitaḥ ||5-20||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 21,
+    "sanskrit_text": "bāhya-sparśeṣv asaktātmā vindaty ātmani yat sukham | sa brahma-yoga-yuktātmā sukham akṣayam aśnute ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "bāhyasparśeṣvasaktātmā vindatyātmani yat sukham | sa brahmayogayuktātmā sukhamakṣayamaśnute ||5-21||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 22,
+    "sanskrit_text": "ye hi saṃsparśajā bhogā duḥkha-yonaya eva te | ādy-anta-vantaḥ kaunteya na teṣu ramate budhaḥ ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te | ādyantavantaḥ kaunteya na teṣu ramate budhaḥ ||5-22||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 23,
+    "sanskrit_text": "śaknotīhaiva yaḥ soḍhuṃ prāk śarīra-vimokṣaṇāt | kāma-krodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "śaknotīhaiva yaḥ soḍhuṃ prākśarīravimokṣaṇāt | kāmakrodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ ||5-23||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 24,
+    "sanskrit_text": "yo 'ntaḥ-sukho 'ntarārāmas tathāntar-jyotir eva yaḥ | sa yogī brahma-nirvāṇaṃ brahma-bhūto 'dhigacchati ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yo'ntaḥsukho'ntarārāmastathāntarjyotireva yaḥ | sa yogī brahmanirvāṇaṃ brahmabhūto'dhigacchati ||5-24||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 25,
+    "sanskrit_text": "labhante brahma-nirvāṇam ṛṣayaḥ kṣīṇa-kalmaṣāḥ | chinna-dvaidhā yatātmānaḥ sarva-bhūta-hite ratāḥ ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "labhante brahmanirvāṇamṛṣayaḥ kṣīṇakalmaṣāḥ | chinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ ||5-25||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 26,
+    "sanskrit_text": "kāma-krodha-viyuktānāṃ yatīnāṃ yata-cetasām | abhito brahma-nirvāṇaṃ vartate viditātmanām ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "kāmakrodhaviyuktānāṃ yatīnāṃ yatacetasām | abhito brahmanirvāṇaṃ vartate viditātmanām ||5-26||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 27,
+    "sanskrit_text": "sparśān kṛtvā bahir bāhyāṃś cakṣuś caivāntare bhruvoḥ | prāṇāpānau samau kṛtvā nāsābhyantara-cāriṇau ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "sparśānkṛtvā bahirbāhyāṃścakṣuścaivāntare bhruvoḥ | prāṇāpānau samau kṛtvā nāsābhyantaracāriṇau ||5-27||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 28,
+    "sanskrit_text": "yatendriya-mano-buddhir munir mokṣa-parāyaṇaḥ | vigatecchā-bhaya-krodho yaḥ sadā mukta eva saḥ ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "yatendriyamanobuddhirmunirmokṣaparāyaṇaḥ | vigatecchābhayakrodho yaḥ sadā mukta eva saḥ ||5-28||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "verse_number": 29,
+    "sanskrit_text": "bhoktāraṃ yajña-tapasāṃ sarva-loka-maheśvaram | suhṛdaṃ sarva-bhūtānāṃ jñātvā māṃ śāntim ṛcchati ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (bare verse lines extracted; commentary excluded)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org (Devanagari, transliterated to IAST for comparison)",
+        "text": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram | suhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati ||5-29||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 1,
+    "sanskrit_text": "saṃjaya uvāca\ntaṃ tathā kṛpayāviṣṭam aśrupūrṇākulekṣaṇam |\nviṣīdantam idaṃ vākyam uvāca madhusūdanaḥ ||1||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.1')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अथ द्वितीयोऽध्यायः\nसञ्जय उवाच\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् ।\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ॥२- १॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 2,
+    "sanskrit_text": "śrī-bhagavān uvāca\nkutas tvā kaśmalam idaṃ viṣame samupasthitam |\nanārya-juṣṭam asvargyam akīrti-karam arjuna ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.2')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "श्रीभगवानुवाच\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् ।\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ॥२- २॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 3,
+    "sanskrit_text": "klaibyaṃ mā sma gamaḥ pārtha naitat tvayy upapadyate |\nkṣudraṃ hṛdaya-daurbalyaṃ tyaktvottiṣṭha paraṃtapa ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.3')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते ।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ॥२- ३॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 4,
+    "sanskrit_text": "arjuna uvāca\nkathaṃ bhīṣmam ahaṃ saṃkhye droṇaṃ ca madhusūdana |\niṣubhiḥ pratiyotsyāmi pūjārhāv arisūdana ||4||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.4')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अर्जुन उवाच\nकथं भीष्ममहं संख्ये द्रोणं च मधुसूदन ।\nइषुभिः प्रति योत्स्यामि पूजार्हावरिसूदन ॥२- ४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 5,
+    "sanskrit_text": "gurūn ahatvā hi mahānubhāvāñ\nśreyo bhoktuṃ bhaikṣyam apīha loke |\nhatvārtha-kāmāṃs tu gurūn ihaiva\nbhuñjīya bhogān rudhira-pradigdhān ||5||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.5')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "गुरूनहत्वा हि महानुभावान् श्रेयो भोक्तुं भैक्ष्यमपीह लोके ।\nहत्वार्थकामांस्तु गुरूनिहैव भुञ्जीय भोगान् रुधिरप्रदिग्धान् ॥२- ५॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 6,
+    "sanskrit_text": "na caitad vidmaḥ kataran no garīyo\nyad vā jayema yadi vā no jayeyuḥ |\nyān eva hatvā na jijīviṣāmas\nte 'vasthitāḥ pramukhe dhārtarāṣṭrāḥ ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.6')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "न चैतद्विद्मः कतरन्नो गरीयो यद्वा जयेम यदि वा नो जयेयुः ।\nयानेव हत्वा न जिजीविषाम- स्तेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ॥२- ६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 7,
+    "sanskrit_text": "kārpaṇya-doṣopahata-svabhāvaḥ\npṛcchāmi tvāṃ dharma-saṃmūḍha-cetāḥ |\nyac chreyaḥ syān niścitaṃ brūhi tan me\nśiṣyas te 'haṃ śādhi māṃ tvāṃ prapannam ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.7')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "कार्पण्यदोषोपहतस्वभावः पृच्छामि त्वां धर्मसम्मूढचेताः ।\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे शिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ॥२- ७॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 8,
+    "sanskrit_text": "na hi prapaśyāmi mamāpanudyād\nyac chokam ucchoṣaṇam indriyāṇām |\navāpya bhūmāv asapatnam ṛddhaṃ\nrājyaṃ surāṇām api cādhipatyam ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.8')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "न हि प्रपश्यामि ममापनुद्याद् यच्छोकमुच्छोषणमिन्द्रियाणाम् ।\nअवाप्य भूमावसपत्नमृद्धं राज्यं सुराणामपि चाधिपत्यम् ॥२- ८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 9,
+    "sanskrit_text": "saṃjaya uvāca\nevam uktvā hṛṣīkeśaṃ guḍākeśaḥ parantapaḥ |\nna yotsya iti govindam uktvā tūṣṇīṃ babhūva ha ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.9')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "सञ्जय उवाच\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप ।\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ॥२- ९॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 10,
+    "sanskrit_text": "tam uvāca hṛṣīkeśaḥ prahasann iva bhārata |\nsenayor ubhayor madhye viṣīdantam idaṃ vacaḥ ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.10')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "तमुवाच हृषीकेशः प्रहसन्निव भारत ।\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ॥२- १०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 11,
+    "sanskrit_text": "śrī-bhagavān uvāca\naśocyān anvaśocas tvaṃ prajñā-vādāṃś ca bhāṣase |\ngatāsūn agatāsūṃś ca nānuśocanti paṇḍitāḥ ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.11')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "श्रीभगवानुवाच\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ॥२- ११॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 12,
+    "sanskrit_text": "na tv evāhaṃ jātu nāsaṃ na tvaṃ neme janādhipāḥ |\nna caiva na bhaviṣyāmaḥ sarve vayam ataḥ param ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.12')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः ।\nन चैव न भविष्यामः सर्वे वयमतः परम् ॥२- १२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 13,
+    "sanskrit_text": "dehino 'smin yathā dehe kaumāraṃ yauvanaṃ jarā |\ntathā dehāntara-prāptir dhīras tatra na muhyati ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.13')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ॥२- १३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 14,
+    "sanskrit_text": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkhadāḥ |\nāgamāpāyino 'nityās tāṃs titikṣasva bhārata ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.14')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥२- १४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 15,
+    "sanskrit_text": "yaṃ hi na vyathayanty ete puruṣaṃ puruṣarṣabha |\nsama-duḥkha-sukhaṃ dhīraṃ so 'mṛtatvāya kalpate ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.15')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ ।\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ॥२- १५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 16,
+    "sanskrit_text": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ |\nubhayor api dṛṣṭo 'ntas tv anayos tattva-darśibhiḥ ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.16')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "नासतो विद्यते भावो नाभावो विद्यते सतः ।\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ॥२- १६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 17,
+    "sanskrit_text": "avināśi tu tad viddhi yena sarvam idaṃ tatam |\nvināśam avyayasyāsya na kaścit kartum arhati ||17||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.17')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् ।\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ॥२- १७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 18,
+    "sanskrit_text": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ |\nanāśino 'prameyasya tasmād yudhyasva bhārata ||18||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.18')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः ।\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ॥२- १८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 19,
+    "sanskrit_text": "ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam |\nubhau tau na vijānīto nāyaṃ hanti na hanyate ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.19')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् ।\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते ॥२- १९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 20,
+    "sanskrit_text": "na jāyate mriyate vā kadācin\nnāyaṃ bhūtvā bhavitā vā na bhūyaḥ |\najo nityaḥ śāśvato 'yaṃ purāṇo\nna hanyate hanyamāne śarīre ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.20')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥२- २०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 21,
+    "sanskrit_text": "vedāvināśinaṃ nityaṃ ya enam ajam avyayam |\nkathaṃ sa puruṣaḥ pārtha kaṃ ghātayati hanti kam ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.21')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् ।\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम् ॥२- २१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 22,
+    "sanskrit_text": "vāsāṃsi jīrṇāni yathā vihāya\nnavāni gṛhṇāti naro 'parāṇi |\ntathā śarīrāṇi vihāya jīrṇāni\nanyāni saṃyāti navāni dehī ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.22')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "वासांसि जीर्णानि यथा विहाय नवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्णान्यन्यानि संयाति नवानि देही ॥२- २२॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 23,
+    "sanskrit_text": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ |\nna cainaṃ kledayanty āpo na śoṣayati mārutaḥ ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.23')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥२- २३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 24,
+    "sanskrit_text": "acchedyo 'yam adāhyo 'yam akledyo 'śoṣya eva ca |\nnityaḥ sarva-gataḥ sthāṇur acalo 'yaṃ sanātanaḥ ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.24')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च ।\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥२- २४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 25,
+    "sanskrit_text": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate |\ntasmād evaṃ viditvainaṃ nānuśocitum arhasi ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.25')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते ।\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ॥२- २५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 26,
+    "sanskrit_text": "atha cainaṃ nityajātaṃ nityaṃ vā manyase mṛtam |\ntathāpi tvaṃ mahābāho naivaṃ śocitum arhasi ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.26')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् ।\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि ॥२- २६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 27,
+    "sanskrit_text": "jātasya hi dhruvo mṛtyur dhruvaṃ janma mṛtasya ca |\ntasmād aparihārye 'rthe na tvaṃ śocitum arhasi ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.27')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च ।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ॥२- २७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 28,
+    "sanskrit_text": "avyaktādīni bhūtāni vyakta-madhyāni bhārata |\navyakta-nidhanāny eva tatra kā paridevanā ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.28')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत ।\nअव्यक्तनिधनान्येव तत्र का परिदेवना ॥२- २८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 29,
+    "sanskrit_text": "āścaryavat paśyati kaścid enam\nāścaryavad vadati tathaiva cānyaḥ |\nāścaryavac cainam anyaḥ śṛṇoti\nśrutvāpy enaṃ veda na caiva kaścit ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.29')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्यः ।\nआश्चर्यवच्चैनमन्यः शृणोति श्रुत्वाप्येनं वेद न चैव कश्चित् ॥२- २९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 30,
+    "sanskrit_text": "dehī nityam avadhyo 'yaṃ dehe sarvasya bhārata |\ntasmāt sarvāṇi bhūtāni na tvaṃ śocitum arhasi ||30||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.30')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत ।\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ॥२- ३०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 31,
+    "sanskrit_text": "sva-dharmam api cāvekṣya na vikampitum arhasi |\ndharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate ||31||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.31')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ॥२- ३१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 32,
+    "sanskrit_text": "yadṛcchayā copapannaṃ svarga-dvāram apāvṛtam |\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddham īdṛśam ||32||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.32')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् ।\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ॥२- ३२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 33,
+    "sanskrit_text": "atha cet tvam imaṃ dharmyaṃ saṃgrāmaṃ na kariṣyasi |\ntataḥ sva-dharmaṃ kīrtiṃ ca hitvā pāpam avāpsyasi ||33||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.33')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि ।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ॥२- ३३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 34,
+    "sanskrit_text": "akīrtiṃ cāpi bhūtāni kathayiṣyanti te 'vyayām |\nsaṃbhāvitasya cākīrtir maraṇād atiricyate ||34||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.34')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् ।\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ॥२- ३४॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 35,
+    "sanskrit_text": "bhayād raṇād uparataṃ maṃsyante tvāṃ mahārathāḥ |\nyeṣāṃ ca tvaṃ bahumato bhūtvā yāsyasi lāghavam ||35||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.35')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः ।\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ॥२- ३५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 36,
+    "sanskrit_text": "avācya-vādāṃś ca bahūn vadiṣyanti tavāhitāḥ |\nnindantas tava sāmarthyaṃ tato duḥkhataraṃ nu kim ||36||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.36')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः ।\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ॥२- ३६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 37,
+    "sanskrit_text": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm |\ntasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ ||37||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.37')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् ।\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ॥२- ३७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 38,
+    "sanskrit_text": "sukha-duḥkhe same kṛtvā lābhālābhau jayājayau |\ntato yuddhāya yujyasva naivaṃ pāpam avāpsyasi ||38||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.38')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ ।\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ॥२- ३८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 39,
+    "sanskrit_text": "eṣā te 'bhihitā sāṃkhye buddhir yoge tv imāṃ śṛṇu |\nbuddhyā yukto yayā pārtha karmabandhaṃ prahāsyasi ||39||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.39')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "एषा तेऽभिहिता सांख्ये बुद्धिर्योगे त्विमां शृणु ।\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ॥२- ३९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 40,
+    "sanskrit_text": "nehābhikrama-nāśo 'sti pratyavāyo na vidyate |\nsvalpam apy asya dharmasya trāyate mahato bhayāt ||40||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.40')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते ।\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ॥२- ४०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 41,
+    "sanskrit_text": "vyavasāyātmikā buddhir ekeha kuru-nandana |\nbahu-śākhā hy anantāś ca buddhayo 'vyavasāyinām ||41||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.41')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन ।\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ॥२- ४१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 42,
+    "sanskrit_text": "yām imāṃ puṣpitāṃ vācaṃ pravadanty avipaścitaḥ |\nveda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ ||42||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.42-44', verse 42)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः ।\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः ॥२- ४२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 43,
+    "sanskrit_text": "kāmātmānaḥ svarga-parā janma-karma-phala-pradām |\nkriyā-viśeṣa-bahulāṃ bhogaiśvarya-gatiṃ prati ||43||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.42-44', verse 43)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् ।\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ॥२- ४३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 44,
+    "sanskrit_text": "bhogaiśvarya-prasaktānāṃ tayāpahṛta-cetasām |\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate ||44||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.42-44', verse 44)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् ।\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते ॥२- ४४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 45,
+    "sanskrit_text": "traiguṇya-viṣayā vedā nistraiguṇyo bhavārjuna |\nnirdvandvo nitya-sattva-stho niryoga-kṣema ātmavān ||45||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.45')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन ।\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ॥२- ४५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 46,
+    "sanskrit_text": "yāvān artha udapāne sarvataḥ saṃplutodake |\ntāvān sarveṣu vedeṣu brāhmaṇasya vijānataḥ ||46||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.46')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यावानर्थ उदपाने सर्वतः संप्लुतोदके ।\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ॥२- ४६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 47,
+    "sanskrit_text": "karmaṇy evādhikāras te mā phaleṣu kadācana |\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi ||47||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.47')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥२- ४७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 48,
+    "sanskrit_text": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanaṃjaya |\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||48||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.48')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनंजय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥२- ४८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 49,
+    "sanskrit_text": "dūreṇa hy avaraṃ karma buddhi-yogād dhanaṃjaya |\nbuddhau śaraṇam anviccha kṛpaṇāḥ phala-hetavaḥ ||49||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.49')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनंजय ।\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ॥२- ४९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 50,
+    "sanskrit_text": "buddhi-yukto jahātīha ubhe sukṛta-duṣkṛte |\ntasmād yogāya yujyasva yogaḥ karmasu kauśalam ||50||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.50')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥२- ५०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 51,
+    "sanskrit_text": "karmajaṃ buddhi-yuktā hi phalaṃ tyaktvā manīṣiṇaḥ |\njanma-bandha-vinirmuktāḥ padaṃ gacchanty anāmayam ||51||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.51')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः ।\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ॥२- ५१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 52,
+    "sanskrit_text": "yadā te mohakalilaṃ buddhir vyatitariṣyati |\ntadā gantāsi nirvedaṃ śrotavyasya śrutasya ca ||52||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.52')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति ।\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ॥२- ५२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 53,
+    "sanskrit_text": "śruti-vipratipannā te yadā sthāsyati niścalā |\nsamādhāv acalā buddhis tadā yogam avāpsyasyi ||53||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.53')",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला ।\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि ॥२- ५३॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 54,
+    "sanskrit_text": "arjuna uvāca\nsthita-prajñasya kā bhāṣā samādhi-sthasya keśava |\nsthita-dhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim ||54||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.54')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "अर्जुन उवाच\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव ।\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ॥२- ५४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 55,
+    "sanskrit_text": "śrī-bhagavān uvāca\nprajahāti yadā kāmān sarvān pārtha mano-gatān |\nātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate ||55||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.55')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "श्रीभगवानुवाच\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥२- ५५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 56,
+    "sanskrit_text": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ |\nvīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate ||56||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.56')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः ।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ॥२- ५६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 57,
+    "sanskrit_text": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham |\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||57||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.57')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् ।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ॥२- ५७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 58,
+    "sanskrit_text": "yadā saṃharate cāyaṃ kūrmo 'ṅgānīva sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||58||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.58')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः ।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥२- ५८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 59,
+    "sanskrit_text": "viṣayā vinivartante nirāhārasya dehinaḥ |\nrasa-varjaṃ raso 'py asya paraṃ dṛṣṭvā nivartate ||59||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.59')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "विषया विनिवर्तन्ते निराहारस्य देहिनः ।\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ॥२- ५९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 60,
+    "sanskrit_text": "yatato hy api kaunteya puruṣasya vipaścitaḥ |\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ ||60||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.60')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः ।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ॥२- ६०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 61,
+    "sanskrit_text": "tāni sarvāṇi saṃyamya yukta āsīta mat-paraḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||61||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.61')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः ।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ॥२- ६१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 62,
+    "sanskrit_text": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate |\nsaṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate ||62||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.62-63', verse 62)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।\nसङ्गात्संजायते कामः कामात्क्रोधोऽभिजायते ॥२- ६२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 63,
+    "sanskrit_text": "krodhād bhavati saṃmohaḥ saṃmohāt smṛti-vibhramaḥ |\nsmṛti-bhraṃśād buddhi-nāśo buddhi-nāśāt praṇaśyati ||63||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.62-63', verse 63)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "क्रोधाद्भवति संमोहः संमोहात्स्मृतिविभ्रमः ।\nस्मृतिभ्रंशाद्बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥२- ६३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 64,
+    "sanskrit_text": "rāga-dveṣa-viyuktais tu viṣayān indriyaiś caran |\nātma-vaśyair vidheyātmā prasādam adhigacchati ||64||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.64')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "रागद्वेषवियुक्तैस्तु विषयानिन्द्रियैश्चरन् ।\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ॥२- ६४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 65,
+    "sanskrit_text": "prasāde sarva-duḥkhānāṃ hānir asyopajāyate |\nprasanna-cetaso hy āśu buddhiḥ paryavatiṣṭhate ||65||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.65')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "प्रसादे सर्वदुःखानां हानिरस्योपजायते ।\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ॥२- ६५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 66,
+    "sanskrit_text": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā |\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham ||66||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.66')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना ।\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ॥२- ६६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 67,
+    "sanskrit_text": "indriyāṇāṃ hi caratāṃ yan mano 'nuvidhīyate |\ntad asya harati prajñāṃ vāyur nāvam ivāmbhasi ||67||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.67')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "इन्द्रियाणां हि चरतां यन्मनोऽनु विधीयते ।\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ॥२- ६७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 68,
+    "sanskrit_text": "tasmād yasya mahābāho nigṛhītāni sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||68||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.68')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः ।\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ॥२- ६८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 69,
+    "sanskrit_text": "yā niśā sarva-bhūtānāṃ tasyāṃ jāgarti saṃyamī |\nyasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ ||69||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.69')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी ।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ॥२- ६९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 70,
+    "sanskrit_text": "āpūryamāṇam acala-pratiṣṭhaṃ\nsamudram āpaḥ praviśanti yadvat |\ntadvat kāmā yaṃ praviśanti sarve\nsa śāntim āpnoti na kāma-kāmī ||70||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.70')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "आपूर्यमाणमचलप्रतिष्ठं समुद्रमापः प्रविशन्ति यद्वत् ।\nतद्वत्कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ॥२- ७०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 71,
+    "sanskrit_text": "vihāya kāmān yaḥ sarvān pumāṃś carati niḥspṛhaḥ |\nnirmamo nirahaṃkāraḥ sa śāntim adhigacchati ||71||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.71')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "विहाय कामान्यः सर्वान् पुमांश्चरति निःस्पृहः ।\nनिर्ममो निरहंकारः स शान्तिमधिगच्छति ॥२- ७१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "verse_number": 72,
+    "sanskrit_text": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati |\nsthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati ||72||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm.htm (bare verse; header marker 'BhG 2.72')",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sa.wikisource.org — भगवद्गीता/साङ्ख्ययोगः (Chapter 2), Devanagari",
+        "text": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति ।\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ॥२- ७२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 1,
+    "sanskrit_text": "śrī-bhagavān uvāca / imaṃ vivasvate yogaṃ proktavān aham avyayam | / vivasvān manave prāha manur ikṣvākave 'bravīt ||1||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "श्रीभगवानुवाच । इमं विवस्वते योगं प्रोक्तवानहमव्ययम् । विवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ॥ ४-१॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "इमं विवस्वते योगं प्रोक्तवानहमव्ययम् । विवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ॥४-१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 2,
+    "sanskrit_text": "evaṃ paramparā-prāptam imaṃ rājarṣayo viduḥ | / sa kāleneha mahatā yogo naṣṭaḥ parantapa ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः । स कालेनेह महता योगो नष्टः परन्तप ॥ ४-२॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः । स कालेनेह महता योगो नष्टः परन्तप ॥४-२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 3,
+    "sanskrit_text": "sa evāyaṃ mayā te 'dya yogaḥ proktaḥ purātanaḥ | / bhakto 'si me sakhā ceti rahasyaṃ hy etad uttamam ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः । भक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ॥ ४-३॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः । भक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ॥४-३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 4,
+    "sanskrit_text": "arjuna uvāca / aparaṃ bhavato janma paraṃ janma vivasvataḥ | / katham etad vijānīyāṃ tvam ādau proktavān iti ||4||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अर्जुन उवाच । अपरं भवतो जन्म परं जन्म विवस्वतः । कथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ॥ ४-४॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अपरं भवतो जन्म परं जन्म विवस्वतः । कथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ॥४-४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 5,
+    "sanskrit_text": "śrī-bhagavān uvāca / bahūni me vyatītāni janmāni tava cārjuna | / tāny ahaṃ veda sarvāṇi na tvaṃ vettha parantapa ||5||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "श्रीभगवानुवाच । बहूनि मे व्यतीतानि जन्मानि तव चार्जुन । तान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ॥ ४-५॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "बहूनि मे व्यतीतानि जन्मानि तव चार्जुन । तान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ॥४-५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 6,
+    "sanskrit_text": "ajo 'pi sann avyayātmā bhūtānām īśvaro 'pi san | / prakṛtiṃ svām adhiṣṭhāya saṃbhavāmy ātma-māyayā ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् । प्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ॥ ४-६॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् । प्रकृतिं स्वामधिष्ठाय संभवाम्यात्ममायया ॥४-६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 7,
+    "sanskrit_text": "yadā yadā hi dharmasya glānir bhavati bhārata | / abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥ ४-७॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत । अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥४-७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 8,
+    "sanskrit_text": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām | / dharma-saṃsthāpanārthāya saṃbhavāmi yuge yuge ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् । धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥ ४-८॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् । धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥४-८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 9,
+    "sanskrit_text": "janma karma ca me divyam evaṃ yo vetti tattvataḥ | / tyaktvā dehaṃ punar janma naiti mām eti so 'rjuna ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः । त्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ॥ ४-९॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः । त्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ॥४-९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 10,
+    "sanskrit_text": "vīta-rāga-bhaya-krodhā man-mayā mām upāśritāḥ | / bahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः । बहवो ज्ञानतपसा पूता मद्भावमागताः ॥ ४-१०॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः । बहवो ज्ञानतपसा पूता मद्भावमागताः ॥४-१०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 11,
+    "sanskrit_text": "ye yathā māṃ prapadyante tāṃs tathaiva bhajāmy aham | / mama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् । मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥ ४-११॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् । मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥४-११॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 12,
+    "sanskrit_text": "kāṅkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatāḥ | / kṣipraṃ hi mānuṣe loke siddhir bhavati karmajā ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः । क्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ॥ ४-१२॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः । क्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ॥४-१२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 13,
+    "sanskrit_text": "cātur-varṇyaṃ mayā sṛṣṭaṃ guṇa-karma-vibhāgaśaḥ | / tasya kartāram api māṃ viddhy akartāram avyayam ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः । तस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ॥ ४-१३॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः । तस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ॥४-१३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 14,
+    "sanskrit_text": "na māṃ karmāṇi limpanti na me karma-phale spṛhā | / iti māṃ yo 'bhijānāti karmabhir na sa badhyate ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा । इति मां योऽभिजानाति कर्मभिर्न स बध्यते ॥ ४-१४॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा । इति मां योऽभिजानाति कर्मभिर्न स बध्यते ॥४-१४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 15,
+    "sanskrit_text": "evaṃ jñātvā kṛtaṃ karma pūrvair api mumukṣubhiḥ | / kuru karmaiva tasmāt tvaṃ pūrvaiḥ pūrvataraṃ kṛtam ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः । कुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ॥ ४-१५॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः । कुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ॥४-१५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 16,
+    "sanskrit_text": "kiṃ karma kim akarmeti kavayo 'py atra mohitāḥ | / tat te karma pravakṣyāmi yaj jñātvā mokṣyase 'śubhāt ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः । तत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥ ४-१६॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः । तत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ॥४-१६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 17,
+    "sanskrit_text": "karmaṇo hy api boddhavyaṃ boddhavyaṃ ca vikarmaṇaḥ | / akarmaṇaś ca boddhavyaṃ gahanā karmaṇo gatiḥ ||17||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः । अकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ॥ ४-१७॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः । अकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ॥४-१७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 18,
+    "sanskrit_text": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ | / sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt ||18||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः । स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥ ४-१८॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः । स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥४-१८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 19,
+    "sanskrit_text": "yasya sarve samārambhāḥ kāma-saṃkalpa-varjitāḥ | / jñānāgni-dagdha-karmāṇaṃ tam āhuḥ paṇḍitaṃ budhāḥ ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः । ज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ॥ ४-१९॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यस्य सर्वे समारम्भाः कामसंकल्पवर्जिताः । ज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ॥४-१९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 20,
+    "sanskrit_text": "tyaktvā karma-phalāsaṅgaṃ nitya-tṛpto nirāśrayaḥ | / karmaṇy abhipravṛtto 'pi naiva kiṃcit karoti saḥ ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः । कर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ॥ ४-२०॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः । कर्मण्यभिप्रवृत्तोऽपि नैव किंचित्करोति सः ॥४-२०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 21,
+    "sanskrit_text": "nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ | / śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः । शारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥ ४-२१॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः । शारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥४-२१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 22,
+    "sanskrit_text": "yadṛcchā-lābha-santuṣṭo dvandvātīto vimatsaraḥ | / samaḥ siddhāv asiddhau ca kṛtvāpi na nibadhyate ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः । समः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ॥ ४-२२॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यदृच्छालाभसंतुष्टो द्वन्द्वातीतो विमत्सरः । समः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ॥४-२२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 23,
+    "sanskrit_text": "gata-saṅgasya muktasya jñānāvasthita-cetasaḥ | / yajñāyācarataḥ karma samagraṃ pravilīyate ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः । यज्ञायाचरतः कर्म समग्रं प्रविलीयते ॥ ४-२३॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः । यज्ञायाचरतः कर्म समग्रं प्रविलीयते ॥४-२३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 24,
+    "sanskrit_text": "brahmārpaṇaṃ brahma havir brahmāgnau brahmaṇā hutam | / brahmaiva tena gantavyaṃ brahma-karma-samādhinā ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् । ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥ ४-२४॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् । ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ॥४-२४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 25,
+    "sanskrit_text": "daivam evāpare yajñaṃ yoginaḥ paryupāsate | / brahmāgnāv apare yajñaṃ yajñenaivopajuhvati ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "दैवमेवापरे यज्ञं योगिनः पर्युपासते । ब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ॥ ४-२५॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "दैवमेवापरे यज्ञं योगिनः पर्युपासते । ब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ॥४-२५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 26,
+    "sanskrit_text": "śrotrādīnīndriyāṇy anye saṃyamāgniṣu juhvati | / śabdādīn viṣayān anya indriyāgniṣu juhvati ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति । शब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ॥ ४-२६॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति । शब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ॥४-२६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 27,
+    "sanskrit_text": "sarvāṇīndriya-karmāṇi prāṇa-karmāṇi cāpare | / ātma-saṃyama-yogāgnau juhvati jñāna-dīpite ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे । आत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ॥ ४-२७॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे । आत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ॥४-२७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 28,
+    "sanskrit_text": "dravya-yajñās tapo-yajñā yoga-yajñās tathāpare | / svādhyāya-jñāna-yajñāś ca yatayaḥ saṃśita-vratāḥ ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे । स्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ॥ ४-२८॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे । स्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ॥४-२८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 29,
+    "sanskrit_text": "apāne juhvati prāṇaṃ prāṇe 'pānaṃ tathāpare | / prāṇāpāna-gatī ruddhvā prāṇāyāma-parāyaṇāḥ ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे । प्राणापानगती रुद्ध्वा प्राणायामपरायणाः ॥ ४-२९॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे । प्राणापानगती रुद्ध्वा प्राणायामपरायणाः ॥४-२९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 30,
+    "sanskrit_text": "apare niyatāhārāḥ prāṇān prāṇeṣu juhvati | / sarve 'py ete yajña-vido yajña-kṣapita-kalmaṣāḥ ||30||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति । सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ॥ ४-३०॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति । सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ॥४-३०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 31,
+    "sanskrit_text": "yajña-śiṣṭāmṛta-bhujo yānti brahma sanātanam | / nāyaṃ loko 'sty ayajñasya kuto 'nyaḥ kurusattama ||31||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् । नायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ॥ ४-३१॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् । नायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ॥४-३१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 32,
+    "sanskrit_text": "evaṃ bahu-vidhā yajñā vitatā brahmaṇo mukhe | / karmajān viddhi tān sarvān evaṃ jñātvā vimokṣyase ||32||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे । कर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ॥ ४-३२॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे । कर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ॥४-३२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 33,
+    "sanskrit_text": "śreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa | / sarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate ||33||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप । सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ॥ ४-३३॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप । सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ॥४-३३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 34,
+    "sanskrit_text": "tad viddhi praṇipātena paripraśnena sevayā | / upadekṣyanti te jñānaṃ jñāninas tattva-darśinaḥ ||34||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया । उपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥ ४-३४॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया । उपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥४-३४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 35,
+    "sanskrit_text": "yaj jñātvā na punar moham evaṃ yāsyasi pāṇḍava | / yena bhūtāny aśeṣeṇa drakṣyasy ātmany atho mayi ||35||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव । येन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि ॥ ४-३५॥ (variant noted at this source: भूतान्यशेषाणि)",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव । येन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि ॥४-३५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 36,
+    "sanskrit_text": "api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛttamaḥ | / sarvaṃ jñāna-plavenaiva vṛjinaṃ santariṣyasi ||36||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः । सर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ॥ ४-३६॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः । सर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ॥४-३६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 37,
+    "sanskrit_text": "yathaidhāṃsi samiddho 'gnir bhasmasāt kurute 'rjuna | / jñānāgniḥ sarva-karmāṇi bhasmasāt kurute tathā ||37||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन । ज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ॥ ४-३७॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन । ज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ॥४-३७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 38,
+    "sanskrit_text": "na hi jñānena sadṛśaṃ pavitram iha vidyate | / tat svayaṃ yoga-saṃsiddhaḥ kālenātmani vindati ||38||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते । तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥ ४-३८॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते । तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥४-३८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 39,
+    "sanskrit_text": "śraddhāvāṃl labhate jñānaṃ tatparaḥ saṃyatendriyaḥ | / jñānaṃ labdhvā parāṃ śāntim acireṇādhigacchati ||39||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः । ज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥ ४-३९॥",
+        "match": false
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः । ज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥४-३९॥",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 40,
+    "sanskrit_text": "ajñaś cāśraddadhānaś ca saṃśayātmā vinaśyati | / nāyaṃ loko 'sti na paro na sukhaṃ saṃśayātmanaḥ ||40||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति । नायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥ ४-४०॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति । नायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥४-४०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 41,
+    "sanskrit_text": "yoga-saṃnyasta-karmāṇaṃ jñāna-saṃchinna-saṃśayam | / ātmavantaṃ na karmāṇi nibadhnanti dhanañjaya ||41||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "योगसंन्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम् । आत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ॥ ४-४१॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "योगसंन्यस्तकर्माणं ज्ञानसंछिन्नसंशयम् । आत्मवन्तं न कर्माणि निबध्नन्ति धनंजय ॥४-४१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "verse_number": 42,
+    "sanskrit_text": "tasmād ajñāna-saṃbhūtaṃ hṛt-sthaṃ jñānāsinātmanaḥ | / chittvainaṃ saṃśayaṃ yogam ātiṣṭhottiṣṭha bhārata ||42||",
+    "source_citation": "GRETIL sa_bhagavadgItA",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org",
+        "text": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः । छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥ ४-४२॥",
+        "match": true
+      },
+      {
+        "source": "sa.wikisource.org",
+        "text": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः । छित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ॥४-४२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 1,
+    "sanskrit_text": "arjuna uvāca / jyāyasī cet karmaṇas te matā buddhir janārdana | / tat kiṃ karmaṇi ghore māṃ niyojayasi keśava || 1 ||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "ॐ / श्रीपरमात्मने नमः / अर्जुन उवाच / ज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन । / तत्किं कर्मणि घोरे मां नियोजयसि केशव ॥३- १॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "arjuna uvAcha / jyAyasI chetkarmaNaste matA buddhirjanArdana | / tatki.n karmaNi ghore mA.n niyojayasi keshava || 3\\-1||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 2,
+    "sanskrit_text": "vyāmiśreṇaiva vākyena buddhiṃ mohayasīva me | / tad ekaṃ vada niścitya yena śreyo 'ham āpnuyām ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे । / तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ॥३- २॥",
+        "match": false
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "vyAmishreNeva vAkyena buddhiM mohayasIva me | / tadekaM vada nishchitya yena shreyo.ahamApnuyAm || 3\\-2||",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 3,
+    "sanskrit_text": "śrī-bhagavān uvāca / loke 'smin dvividhā niṣṭhā purā proktā mayānagha | / jñāna-yogena sāṃkhyānāṃ karma-yogena yoginām ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "श्रीभगवानुवाच / लोकेऽस्मिन्द्विविधा निष्ठा पुरा प्रोक्ता मयानघ । / ज्ञानयोगेन सांख्यानां कर्मयोगेन योगिनाम् ॥३- ३॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "shrIbhagavAnuvAcha / loke.asmin dvividhA niShThA purA proktA mayAnagha | / j~nAnayogena sA~NkhyAnA.n karmayogena yoginAm || 3\\-3||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 4,
+    "sanskrit_text": "na karmaṇām anārambhān naiṣkarmyaṃ puruṣo 'śnute | / na ca saṃnyasanād eva siddhiṃ samadhigacchati || 4 ||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते । / न च संन्यसनादेव सिद्धिं समधिगच्छति ॥३- ४॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "na karmaNAmanArambhAnnaiShkarmyaM puruSho.ashnute | / na cha sa.nnyasanAdeva siddhi.n samadhigachChati || 3\\-4||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 5,
+    "sanskrit_text": "na hi kaścit kṣaṇam api jātu tiṣṭhaty akarma-kṛt | / kāryate hy avaśaḥ karma sarvaḥ prakṛtijair guṇaiḥ || 5 ||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् । / कार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ॥३- ५॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "na hi kashchitkShaNamapi jAtu tiShThatyakarmakR^it | / kAryate hyavashaH karma sarvaH prakR^itijairguNaiH || 3\\-5||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 6,
+    "sanskrit_text": "karmendriyāṇi saṃyamya ya āste manasā smaran | / indriyārthān vimūḍhātmā mithyācāraḥ sa ucyate ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् । / इन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ॥३- ६॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "karmendriyANi sa.nyamya ya Aste manasA smaran | / indriyArthAnvimUDhAtmA mithyAchAraH sa uchyate || 3\\-6||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 7,
+    "sanskrit_text": "yas tv indriyāṇi manasā niyamyārabhate 'rjuna / karmendriyaiḥ karma-yogam asaktaḥ sa viśiṣyate ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन । / कर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ॥३- ७॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yastvindriyANi manasA niyamyArabhate.arjuna | / karmendriyaiH karmayogamasaktaH sa vishiShyate || 3\\-7||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 8,
+    "sanskrit_text": "niyataṃ kuru karma tvaṃ karma jyāyo hy akarmaṇaḥ | / śarīrayātrāpi ca te na prasidhyed akarmaṇaḥ ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "mismatch",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः । / शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ॥३- ८॥",
+        "match": false
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "niyata.n kuru karma tvaM karma jyAyo hyakarmaNaH | / sharIrayAtrApi cha te na prasid.hdhyedakarmaNaH || 3\\-8||",
+        "match": false
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 9,
+    "sanskrit_text": "yajñārthāt karmaṇo 'nyatra loko 'yaṃ karma-bandhanaḥ | / tad-arthaṃ karma kaunteya mukta-saṅgaḥ samācara ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः । / तदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ॥३- ९॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yaj~nArthAtkarmaNo.anyatra loko.aya.n karmabandhanaH | / tadartha.n karma kaunteya muktasa~NgaH samAchara || 3\\-9||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 10,
+    "sanskrit_text": "saha-yajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ | / anena prasaviṣyadhvam eṣa vo 'stv iṣṭa-kāma-dhuk ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः । / अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ॥३- १०॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "sahayaj~nAH prajAH sR^iShTvA purovAcha prajApatiH | / anena prasaviShyadhvameSha vo.astviShTakAmadhuk || 3\\-10||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 11,
+    "sanskrit_text": "devān bhāvayatānena te devā bhāvayantu vaḥ | / parasparaṃ bhāvayantaḥ śreyaḥ param avāpsyatha ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "देवान्भावयतानेन ते देवा भावयन्तु वः । / परस्परं भावयन्तः श्रेयः परमवाप्स्यथ ॥३- ११॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "devAnbhAvayatAnena te devA bhAvayantu vaH | / parasparaM bhAvayantaH shreyaH paramavApsyatha || 3\\-11||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 12,
+    "sanskrit_text": "iṣṭān bhogān hi vo devā dāsyante yajña-bhāvitāḥ | / tair dattān apradāyaibhyo yo bhuṅkte stena eva saḥ ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः । / तैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ॥३- १२॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "iShTAnbhogAnhi vo devA dAsyante yaj~nabhAvitAH | / tairdattAnapradAyaibhyo yo bhu~Nkte stena eva saH || 3\\-12||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 13,
+    "sanskrit_text": "yajña-śiṣṭāśinaḥ santo mucyante sarva-kilbiṣaiḥ | / bhuñjate te tv aghaṃ pāpā ye pacanty ātma-kāraṇāt ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः । / भुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ॥३- १३॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yaj~nashiShTAshinaH santo muchyante sarvakilbiShaiH | / bhu~njate te tvaghaM pApA ye pachantyAtmakAraNAt || 3\\-13||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 14,
+    "sanskrit_text": "annād bhavanti bhūtāni parjanyād anna-saṃbhavaḥ | / yajñād bhavati parjanyo yajñaḥ karma-samudbhavaḥ ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः । / यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ॥३- १४॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "annAdbhavanti bhUtAni parjanyAdannasambhavaH | / yaj~nAdbhavati parjanyo yaj~naH karmasamudbhavaH || 3\\-14||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 15,
+    "sanskrit_text": "karma brahmodbhavaṃ viddhi brahmākṣara-samudbhavam / tasmāt sarva-gataṃ brahma nityaṃ yajñe pratiṣṭhitam ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् । / तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ॥३- १५॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "karma brahmodbhava.n viddhi brahmAkSharasamudbhavam | / tasmAtsarvagataM brahma nityaM yaj~ne pratiShThitam || 3\\-15||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 16,
+    "sanskrit_text": "evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ | / aghāyur indriyārāmo moghaṃ pārtha sa jīvati ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः । / अघायुरिन्द्रियारामो मोघं पार्थ स जीवति ॥३- १६॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "evaM pravartita.n chakraM nAnuvartayatIha yaH | / aghAyurindriyArAmo moghaM pArtha sa jIvati || 3\\-16||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 17,
+    "sanskrit_text": "yas tv ātma-ratir eva syād ātma-tṛptaś ca mānavaḥ / ātmany eva ca saṃtuṣṭas tasya kāryaṃ na vidyate || 17 ||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः । / आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ॥३- १७॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yastvAtmaratireva syAdAtmatR^iptashcha mAnavaH | / Atmanyeva cha santuShTastasya kAryaM na vidyate || 3\\-17||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 18,
+    "sanskrit_text": "naiva tasya kṛtenārtho nākṛteneha kaścana | / na cāsya sarvabhūteṣu kaś cid arthavyapāśrayaḥ || 18 ||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन । / न चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ॥३- १८॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "naiva tasya kR^itenArtho nAkR^iteneha kashchana | / na chAsya sarvabhUteShu kashchidarthavyapAshrayaH || 3\\-18||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 19,
+    "sanskrit_text": "tasmād asaktaḥ satataṃ kāryaṃ karma samācara / asakto hy ācaran karma param āpnoti pūruṣaḥ ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "तस्मादसक्तः सततं कार्यं कर्म समाचर । / असक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ॥३- १९॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "tasmAdasaktaH satataM kAryaM karma samAchara | / asakto hyAcharankarma paramApnoti pUruShaH || 3\\-19||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 20,
+    "sanskrit_text": "karmaṇaiva hi saṃsiddhim āsthitā janakādayaḥ / loka-saṃgraham evāpi saṃpaśyan kartum arhasi ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः । / लोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि ॥३- २०॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "karmaNaiva hi sa.nsiddhimAsthitA janakAdayaH | / lokasa~NgrahamevApi sampashyankartumarhasi || 3\\-20||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 21,
+    "sanskrit_text": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ | / sa yat pramāṇaṃ kurute lokas tad anuvartate ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः । / स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥३- २१॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yadyadAcharati shreShThastattadevetaro janaH | / sa yatpramANaM kurute lokastadanuvartate || 3\\-21||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 22,
+    "sanskrit_text": "na me pārthāsti kartavyaṃ triṣu lokeṣu kiṃcana | / nānavāptam avāptavyaṃ varta eva ca karmaṇi ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किंचन । / नानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ॥३- २२॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "na me pArthAsti kartavyaM triShu lokeShu ki~nchana | / nAnavAptamavAptavyaM varta eva cha karmaNi || 3\\-22||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 23,
+    "sanskrit_text": "yadi hy ahaṃ na varteyaṃ jātu karmaṇy atandritaḥ | / mama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः । / मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥३- २३॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "yadi hyahaM na varteya.n jAtu karmaNyatandritaH | / mama vartmAnuvartante manuShyAH pArtha sarvashaH || 3\\-23||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 24,
+    "sanskrit_text": "utsīdeyur ime lokā na kuryāṃ karma ced aham | / saṃkarasya ca kartā syām upahanyām imāḥ prajāḥ ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् । / संकरस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ॥३- २४॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "utsIdeyurime lokA na kuryA.n karma chedaham | / sa~Nkarasya cha kartA syAmupahanyAmimAH prajAH || 3\\-24||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 25,
+    "sanskrit_text": "saktāḥ karmaṇy avidvāṃso yathā kurvanti bhārata | / kuryād vidvāṃs tathāsaktaś cikīrṣur loka-saṃgraham ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत । / कुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ॥३- २५॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "saktAH karmaNyavidvA.nso yathA kurvanti bhArata | / kuryAdvidvA.nstathAsaktashchikIrShurlokasa~Ngraham || 3\\-25||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 26,
+    "sanskrit_text": "na buddhi-bhedaṃ janayed ajñānāṃ karma-saṅginām | / joṣayet sarva-karmāṇi vidvān yuktaḥ samācaran ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् । / जोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ॥३- २६॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "na buddhibheda.n janayedaj~nAnA.n karmasa~NginAm | / joShayetsarvakarmANi vidvAnyuktaH samAcharan || 3\\-26||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 27,
+    "sanskrit_text": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ | / ahaṃkāra-vimūḍhātmā kartāham iti manyate ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः । / अहंकारविमूढात्मा कर्ताहमिति मन्यते ॥३- २७॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "prakR^iteH kriyamANAni guNaiH karmANi sarvashaH | / aha~NkAravimUDhAtmA kartAhamiti manyate || 3\\-27||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 28,
+    "sanskrit_text": "tattvavit tu mahā-bāho guṇa-karma-vibhāgayoḥ | / guṇā guṇeṣu vartanta iti matvā na sajjate ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः । / गुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ॥३- २८॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "tattvavittu mahAbAho guNakarmavibhAgayoH | / guNA guNeShu vartanta iti matvA na sajjate || 3\\-28||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 29,
+    "sanskrit_text": "prakṛter guṇa-saṃmūḍhāḥ sajjante guṇa-karmasu | / tān akṛtsna-vido mandān kṛtsna-vin na vicālayet ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "प्रकृतेर्गुणसंमूढाः सज्जन्ते गुणकर्मसु । / तानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ॥३- २९॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "prakR^iterguNasammUDhAH sajjante guNakarmasu | / tAnakR^itsnavido mandAnkR^itsnavinna vichAlayet || 3\\-29||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 30,
+    "sanskrit_text": "mayi sarvāṇi karmāṇi saṃnyasyādhyātma-cetasā | / nirāśīr nirmamo bhūtvā yudhyasva vigata-jvaraḥ ||30||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा । / निराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ॥३- ३०॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "mayi sarvANi karmANi sa.nnyasyAdhyAtmachetasA | / nirAshIrnirmamo bhUtvA yudhyasva vigatajvaraH || 3\\-30||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 31,
+    "sanskrit_text": "ye me matam idaṃ nityam anutiṣṭhanti mānavāḥ | / śraddhāvanto 'nasūyanto mucyante te 'pi karmabhiḥ ||31||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः । / श्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ॥३- ३१॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "ye me matamidaM nityamanutiShThanti mAnavAH | / shraddhAvanto.anasUyanto muchyante te.api karmabhiH || 3\\-31||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 32,
+    "sanskrit_text": "ye tv etad abhyasūyanto nānutiṣṭhanti me matam | / sarva-jñāna-vimūḍhāṃs tān viddhi naṣṭān acetasaḥ ||32||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् । / सर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ॥३- ३२॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "ye tvetadabhyasUyanto nAnutiShThanti me matam | / sarvaj~nAnavimUDhA.nstAnviddhi naShTAnachetasaH || 3\\-32||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 33,
+    "sanskrit_text": "sadṛśaṃ ceṣṭate svasyāḥ prakṛter jñānavān api | / prakṛtiṃ yānti bhūtāni nigrahaḥ kiṃ kariṣyati ||33||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि । / प्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ॥३- ३३॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "sadR^isha.n cheShTate svasyAH prakR^iterj~nAnavAnapi | / prakR^iti.n yAnti bhUtAni nigrahaH kiM kariShyati || 3\\-33||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 34,
+    "sanskrit_text": "indriyasyendriyasyārthe rāga-dveṣau vyavasthitau | / tayor na vaśam āgacchet tau hy asya paripanthinau ||34||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ । / तयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ॥३- ३४॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "indriyasyendriyasyArthe rAgadveShau vyavasthitau | / tayorna vashamAgachChettau hyasya paripanthinau || 3\\-34||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 35,
+    "sanskrit_text": "śreyān sva-dharmo viguṇaḥ para-dharmāt svanuṣṭhitāt | / sva-dharme nidhanaṃ śreyaḥ para-dharmo bhayāvahaḥ ||35||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् । / स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ॥३- ३५॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "shreyAnsvadharmo viguNaH paradharmAtsvanuShThitAt | / svadharme nidhana.n shreyaH paradharmo bhayAvahaH || 3\\-35||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 36,
+    "sanskrit_text": "arjuna uvāca / atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ | / anicchann api vārṣṇeya balād iva niyojitaḥ ||36||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "अर्जुन उवाच / अथ केन प्रयुक्तोऽयं पापं चरति पूरुषः । / अनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ॥३- ३६॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "arjuna uvAcha / atha kena prayukto.ayaM pApa.n charati pUruShaH | / anichChannapi vArShNeya balAdiva niyojitaH || 3\\-36||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 37,
+    "sanskrit_text": "śrī-bhagavān uvāca / kāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ | / mahāśano mahā-pāpmā viddhy enam iha vairiṇam ||37||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "श्रीभगवानुवाच / काम एष क्रोध एष रजोगुणसमुद्भवः । / महाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ॥३- ३७॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "shrIbhagavAnuvAcha / kAma eSha krodha eSha rajoguNasamudbhavaH | / mahAshano mahApApmA vid.hdhyenamiha vairiNam || 3\\-37||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 38,
+    "sanskrit_text": "dhūmenāvriyate vahnir yathā-darśo malena ca | / yatholbenāvṛto garbhas tathā tenedam āvṛtam ||38||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च । / यथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ॥३- ३८॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "dhUmenAvriyate vahniryathAdarsho malena cha | / yatholbenAvR^ito garbhastathA tenedamAvR^itam || 3\\-38||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 39,
+    "sanskrit_text": "āvṛtaṃ jñānam etena jñānino nitya-vairiṇā | / kāma-rūpeṇa kaunteya duṣpūreṇānalena ca ||39||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा । / कामरूपेण कौन्तेय दुष्पूरेणानलेन च ॥३- ३९॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "AvR^itaM j~nAnametena j~nAnino nityavairiNA | / kAmarUpeNa kaunteya duShpUreNAnalena cha || 3\\-39||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 40,
+    "sanskrit_text": "indriyāṇi mano buddhir asyādhiṣṭhānam ucyate | / etair vimohayaty eṣa jñānam āvṛtya dehinam ||40||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते । / एतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ॥३- ४०॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "indriyANi mano buddhirasyAdhiShThAnamuchyate | / etairvimohayatyeSha j~nAnamAvR^itya dehinam || 3\\-40||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 41,
+    "sanskrit_text": "tasmāt tvam indriyāṇy ādau niyamya bharatarṣabha | / pāpmānaṃ prajahihy enaṃ jñāna-vijñāna-nāśanam ||41||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ । / पाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ॥३- ४१॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "tasmAttvamindriyANyAdau niyamya bharatarShabha | / pApmAnaM prajahi hyenaM j~nAnavij~nAnanAshanam || 3\\-41||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 42,
+    "sanskrit_text": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ | / manasas tu parā buddhir yo buddheḥ paratas tu saḥ ||42||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः । / मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ॥३- ४२॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "indriyANi parANyAhurindriyebhyaH paraM manaH | / manasastu parA buddhiryo buddheH paratastu saH || 3\\-42||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "verse_number": 43,
+    "sanskrit_text": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānam ātmanā | / jahi śatruṃ mahā-bāho kāma-rūpaṃ durāsadam ||43||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "Sanskrit Wikisource (sa.wikisource.org/wiki/भगवद्गीता/कर्मयोगः)",
+        "text": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना । / जहि शत्रुं महाबाहो कामरूपं दुरासदम् ॥३- ४३॥",
+        "match": true
+      },
+      {
+        "source": "sanskritdocuments.org doc_giitaa/bhagvadnew.itx",
+        "text": "evaM buddheH paraM buddhvA sa.nstabhyAtmAnamAtmanA | / jahi shatruM mahAbAho kAmarUpaM durAsadam || 3\\-43||",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 1,
+    "sanskrit_text": "śrī-bhagavān uvāca\nmayy āsakta-manāḥ pārtha yogaṃ yuñjan mad-āśrayaḥ |\nasaṃśayaṃ samagraṃ māṃ yathā jñāsyasi tac chṛṇu ||1||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.1)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "श्रीभगवानुवाच । मय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः । असंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ॥ ७-१॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "श्रीभगवानुवाच मय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः । असंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ॥७- १॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 2,
+    "sanskrit_text": "jñānaṃ te 'haṃ sa-vijñānam idaṃ vakṣyāmy aśeṣataḥ |\nyaj jñātvā neha bhūyo 'nyaj jñātavyam avaśiṣyate ||2||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.2)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः । यज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ॥ ७-२॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः । यज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ॥७- २॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 3,
+    "sanskrit_text": "manuṣyāṇāṃ sahasreṣu kaś cid yatati siddhaye |\nyatatām api siddhānāṃ kaś cin māṃ vetti tattvataḥ ||3||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.3)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये । यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ॥ ७-३॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये । यततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ॥७- ३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 4,
+    "sanskrit_text": "bhūmir āpo 'nalo vāyuḥ khaṃ mano buddhir eva ca |\nahaṃkāra itīyaṃ me bhinnā prakṛtir aṣṭadhā ||4||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.4)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च । अहङ्कार इतीयं मे भिन्ना प्रकृतिरष्टधा ॥ ७-४॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च । अहंकार इतीयं मे भिन्ना प्रकृतिरष्टधा ॥७- ४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 5,
+    "sanskrit_text": "apareyam itas tv anyāṃ prakṛtiṃ viddhi me parām |\njīva-bhūtāṃ mahā-bāho yayedaṃ dhāryate jagat ||5||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.5)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् । जीवभूतां महाबाहो ययेदं धार्यते जगत् ॥ ७-५॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् । जीवभूतां महाबाहो ययेदं धार्यते जगत् ॥७- ५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 6,
+    "sanskrit_text": "etad-yonīni bhūtāni sarvāṇīty upadhāraya |\nahaṃ kṛtsnasya jagataḥ prabhavaḥ pralayas tathā ||6||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.6)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय । अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ॥ ७-६॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय । अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ॥७- ६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 7,
+    "sanskrit_text": "mattaḥ parataraṃ nānyat kiñcid asti dhanañjaya |\nmayi sarvam idaṃ protaṃ sūtre maṇi-gaṇā iva ||7||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.7)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय । मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥ ७-७॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "मत्तः परतरं नान्यत्किंचिदस्ति धनंजय । मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥७- ७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 8,
+    "sanskrit_text": "raso 'ham apsu kaunteya prabhāsmi śaśi-sūryayoḥ |\npraṇavaḥ sarva-vedeṣu śabdaḥ khe pauruṣaṃ nṛṣu ||8||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.8)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः । प्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ॥ ७-८॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः । प्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ॥७- ८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 9,
+    "sanskrit_text": "puṇyo gandhaḥ pṛthivyāṃ ca tejaś cāsmi vibhāvasau |\njīvanaṃ sarva-bhūteṣu tapaś cāsmi tapasviṣu ||9||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.9)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ । जीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ॥ ७-९॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ । जीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ॥७- ९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 10,
+    "sanskrit_text": "bījaṃ māṃ sarva-bhūtānāṃ viddhi pārtha sanātanam |\nbuddhir buddhimatām asmi tejas tejasvinām aham ||10||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.10)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् । बुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ॥ ७-१०॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् । बुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ॥७- १०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 11,
+    "sanskrit_text": "balaṃ balavatāṃ cāhaṃ kāma-rāga-vivarjitam |\ndharmāviruddho bhūteṣu kāmo 'smi bharatarṣabha ||11||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.11)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "बलं बलवतां चाहं कामरागविवर्जितम् । धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ॥ ७-११॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "बलं बलवतां चाहं कामरागविवर्जितम् । धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ॥७- ११॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 12,
+    "sanskrit_text": "ye caiva sāttvikā bhāvā rājasās tāmasāś ca ye |\nmatta eveti tān viddhi na tv ahaṃ teṣu te mayi ||12||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.12)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये । मत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ॥ ७-१२॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये । मत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ॥७- १२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 13,
+    "sanskrit_text": "tribhir guṇa-mayair bhāvair ebhiḥ sarvam idaṃ jagat |\nmohitaṃ nābhijānāti mām ebhyaḥ param avyayam ||13||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.13)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् । मोहितं नाभिजानाति मामेभ्यः परमव्ययम् ॥ ७-१३॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् । मोहितं नाभिजानाति मामेभ्यः परमव्ययम् ॥७- १३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 14,
+    "sanskrit_text": "daivī hy eṣā guṇa-mayī mama māyā duratyayā |\nmām eva ye prapadyante māyām etāṃ taranti te ||14||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.14)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "दैवी ह्येषा गुणमयी मम माया दुरत्यया । मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ ७-१४॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "दैवी ह्येषा गुणमयी मम माया दुरत्यया । मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥७- १४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 15,
+    "sanskrit_text": "na māṃ duṣkṛtino mūḍhāḥ prapadyante narādhamāḥ |\nmāyayāpahṛta-jñānā āsuraṃ bhāvam āśritāḥ ||15||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.15)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः । माययापहृतज्ञाना आसुरं भावमाश्रिताः ॥ ७-१५॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः । माययापहृतज्ञाना आसुरं भावमाश्रिताः ॥७- १५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 16,
+    "sanskrit_text": "catur-vidhā bhajante māṃ janāḥ sukṛtino 'rjuna |\nārto jijñāsur arthārthī jñānī ca bharatarṣabha ||16||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.16)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन । आर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ॥ ७-१६॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन । आर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ॥७- १६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 17,
+    "sanskrit_text": "teṣāṃ jñānī nitya-yukta eka-bhaktir viśiṣyate |\npriyo hi jñānino 'tyartham ahaṃ sa ca mama priyaḥ ||17||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.17)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते । प्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ॥ ७-१७॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते । प्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ॥७- १७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 18,
+    "sanskrit_text": "udārāḥ sarva evaite jñānī tv ātmaiva me matam |\nāsthitaḥ sa hi yuktātmā mām evānuttamāṃ gatim ||18||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.18)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् । आस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ॥ ७-१८॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् । आस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ॥७- १८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 19,
+    "sanskrit_text": "bahūnāṃ janmanām ante jñānavān māṃ prapadyate |\nvāsudevaḥ sarvam iti sa mahātmā sudurlabhaḥ ||19||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.19)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते । वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥ ७-१९॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते । वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥७- १९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 20,
+    "sanskrit_text": "kāmais tais tair hṛta-jñānāḥ prapadyante 'nya-devatāḥ |\ntaṃ taṃ niyamam āsthāya prakṛtyā niyatāḥ svayā ||20||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.20)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः । तं तं नियममास्थाय प्रकृत्या नियताः स्वया ॥ ७-२०॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः । तं तं नियममास्थाय प्रकृत्या नियताः स्वया ॥७- २०॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 21,
+    "sanskrit_text": "yo yo yāṃ yāṃ tanuṃ bhaktaḥ śraddhayārcitum icchati |\ntasya tasyācalāṃ śraddhāṃ tām eva vidadhāmy aham ||21||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.21)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति । तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ॥ ७-२१॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति । तस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ॥७- २१॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 22,
+    "sanskrit_text": "sa tayā śraddhayā yuktas tasyā rādhanam īhate |\nlabhate ca tataḥ kāmān mayaiva vihitān hi tān ||22||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.22)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "स तया श्रद्धया युक्तस्तस्याराधनमीहते । लभते च ततः कामान्मयैव विहितान्हि तान् ॥ ७-२२॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "स तया श्रद्धया युक्तस्तस्याराधनमीहते । लभते च ततः कामान्मयैव विहितान्हि तान् ॥७- २२॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 23,
+    "sanskrit_text": "antavat tu phalaṃ teṣāṃ tad bhavaty alpa-medhasām |\ndevān deva-yajo yānti mad-bhaktā yānti mām api ||23||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.23)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् । देवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ॥ ७-२३॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् । देवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ॥७- २३॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 24,
+    "sanskrit_text": "avyaktaṃ vyaktim āpannaṃ manyante mām abuddhayaḥ |\nparaṃ bhāvam ajānanto mamāvyayam anuttamam ||24||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.24)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः । परं भावमजानन्तो ममाव्ययमनुत्तमम् ॥ ७-२४॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः । परं भावमजानन्तो ममाव्ययमनुत्तमम् ॥७- २४॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 25,
+    "sanskrit_text": "nāhaṃ prakāśaḥ sarvasya yoga-māyā-samāvṛtaḥ |\nmūḍho 'yaṃ nābhijānāti loko mām ajam avyayam ||25||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.25)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः । मूढोऽयं नाभिजानाति लोको मामजमव्ययम् ॥ ७-२५॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः । मूढोऽयं नाभिजानाति लोको मामजमव्ययम् ॥७- २५॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 26,
+    "sanskrit_text": "vedāhaṃ samatītāni vartamānāni cārjuna |\nbhaviṣyāṇi ca bhūtāni māṃ tu veda na kaścana ||26||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.26)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "वेदाहं समतीतानि वर्तमानानि चार्जुन । भविष्याणि च भूतानि मां तु वेद न कश्चन ॥ ७-२६॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "वेदाहं समतीतानि वर्तमानानि चार्जुन । भविष्याणि च भूतानि मां तु वेद न कश्चन ॥७- २६॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 27,
+    "sanskrit_text": "icchā-dveṣa-samutthena dvandva-mohena bhārata |\nsarva-bhūtāni saṃmohaṃ sarge yānti parantapa ||27||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.27)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत । सर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ॥ ७-२७॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत । सर्वभूतानि संमोहं सर्गे यान्ति परन्तप ॥७- २७॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 28,
+    "sanskrit_text": "yeṣāṃ tv anta-gataṃ pāpaṃ janānāṃ puṇya-karmaṇām |\nte dvandva-moha-nirmuktā bhajante māṃ dṛḍha-vratāḥ ||28||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.28)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् । ते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ॥ ७-२८॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् । ते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ॥७- २८॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 29,
+    "sanskrit_text": "jarā-maraṇa-mokṣāya mām āśritya yatanti ye |\nte brahma tad viduḥ kṛtsnam adhyātmaṃ karma cākhilam ||29||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.29)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये । ते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ॥ ७-२९॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये । ते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ॥७- २९॥",
+        "match": true
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "verse_number": 30,
+    "sanskrit_text": "sādhibhūtādhidaivaṃ māṃ sādhiyajñaṃ ca ye viduḥ |\nprayāṇa-kāle 'pi ca māṃ te vidur yukta-cetasaḥ ||30||",
+    "source_citation": "GRETIL sa_bhagavadgItA-4comm (BhG 7.30)",
+    "confidence": "high_confidence",
+    "cross_check_sources": [
+      {
+        "source": "sanskritdocuments.org (doc_giitaa/bhagvadnew.html)",
+        "text": "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः । प्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ॥ ७-३०॥",
+        "match": true
+      },
+      {
+        "source": "Sanskrit Wikisource (भगवद्गीता/ज्ञानविज्ञानयोगः)",
+        "text": "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः । प्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ॥७- ३०॥",
+        "match": true
+      }
+    ]
+  }
+]

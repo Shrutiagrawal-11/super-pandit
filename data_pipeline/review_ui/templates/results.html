@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><title>Comparison Results</title></head>
+<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto;">
+  <h1>Comparison Results</h1>
+  <p>Extracted: {{ total }} &nbsp; | &nbsp;
+     Matched: {{ counts.matched }} &nbsp; | &nbsp;
+     Mismatched: {{ counts.mismatch }} &nbsp; | &nbsp;
+     Not checked: {{ counts.not_checked }}</p>
+
+  {% if warnings %}
+  <div style="background: #fff3cd; padding: 10px; margin-bottom: 20px;">
+    <strong>Warnings from structure detection:</strong>
+    <ul>{% for w in warnings %}<li>{{ w }}</li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+
+  <form action="/load-to-database" method="post">
+    <button type="submit">Load to Database</button>
+  </form>
+
+  <h2>Mismatches (needs attention)</h2>
+  {% for r in results %}
+    {% if r.cross_check_status == 'mismatch' %}
+    <div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+      <strong>{{ r.chapter }}.{{ r.verse }}</strong> — MISMATCH
+      <p><em>Primary:</em> {{ r.primary_text }}</p>
+      {% for reading in r.readings %}
+        <p><em>{{ reading.source }}:</em>
+          {% if reading.text is none %}not found
+          {% elif reading.matches %}✓ match
+          {% else %}⚠ differs: {{ reading.text }}
+          {% endif %}
+        </p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</body>
+</html>
