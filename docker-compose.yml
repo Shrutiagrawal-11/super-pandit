@@ -1,0 +1,16 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: pandit
+      POSTGRES_PASSWORD: pandit_dev_local
+      POSTGRES_DB: ai_pandit
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/app/db/migrations:/migrations
+
+volumes:
+  pgdata:
