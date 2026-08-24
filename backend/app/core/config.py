@@ -13,3 +13,5 @@ LLM_MODEL = os.environ.get("LLM_MODEL", "gpt-5-mini")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 EMBEDDING_MODEL_NAME = os.environ.get("EMBEDDING_MODEL_NAME", "BAAI/bge-m3")
 RETRIEVAL_TOP_K = int(os.environ.get("RETRIEVAL_TOP_K", "5"))
+
+JWT_SECRET = os.environ.get("JWT_SECRET", "dev_only_insecure_secret_change_in_env")

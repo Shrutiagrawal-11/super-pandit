@@ -56,7 +56,7 @@ class GeminiLLMClient:
         response = self._client.models.generate_content(
             model=self._model_name,
             contents=user_question,
-            config={"system_instruction": system_prompt},
+            config={"system_instruction": system_prompt, "max_output_tokens": 400},
         )
         return response.text
 

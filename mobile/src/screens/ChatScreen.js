@@ -11,14 +11,18 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { usePreventScreenCapture } from "expo-screen-capture";
 import { colors, fonts, radii, spacing } from "../theme/tokens";
-import { askPandit } from "../api/client";
+import { askPandit, saveVerse, setProgress } from "../api/client";
+import { useAuth } from "../auth/AuthContext";
 
 const SUGGESTIONS = ["fear of failure", "how do I stop overthinking?", "what is dharma?"];
 
 let nextId = 1;
 
 export default function ChatScreen({ navigation }) {
+  usePreventScreenCapture(); // FLAG_SECURE on Android, screenshot/recording block on iOS — per PROJECT_PLAN.md Phase 2
+  const { auth, isSignedIn } = useAuth();
   const [messages, setMessages] = useState([
     {
       id: nextId++,
@@ -47,15 +51,33 @@ export default function ChatScreen({ navigation }) {
           text: result.answer,
           verse: verse ? verse.sanskrit_text : null,
           cite: verse ? `${verse.scripture} ${verse.chapter}.${verse.verse_number}` : null,
+          verseId: verse ? verse.verse_id : null,
+          saved: false,
         },
       ]);
+
+      if (verse && isSignedIn) {
+        setProgress(verse.scripture, verse.chapter, verse.verse_number, auth.token).catch(() => {});
+      }
     } catch (err) {
-      setMessages((prev) => [
-        ...prev,
-        { id: nextId++, role: "pandit", text: "Something went wrong reaching the server. Please try again." },
-      ]);
+      const text = err.message?.startsWith("The server is taking too long")
+        ? err.message
+        : "Something went wrong reaching the server. Please try again.";
+      setMessages((prev) => [...prev, { id: nextId++, role: "pandit", text }]);
     } finally {
       setThinking(false);
+    }
+  }
+
+  async function toggleSave(message) {
+    if (!isSignedIn || !message.verseId) return;
+    try {
+      if (!message.saved) {
+        await saveVerse(message.verseId, null, auth.token);
+      }
+      setMessages((prev) => prev.map((m) => (m.id === message.id ? { ...m, saved: true } : m)));
+    } catch (err) {
+      // saving is a nice-to-have, a failure here shouldn't interrupt the conversation
     }
   }
 
@@ -92,7 +114,18 @@ export default function ChatScreen({ navigation }) {
             {item.verse && (
               <Text style={styles.verse}>{item.verse}</Text>
             )}
-            {item.cite && <Text style={styles.cite}>{item.cite.toUpperCase()}</Text>}
+            {item.cite && (
+              <View style={styles.citeRow}>
+                <Text style={styles.cite}>{item.cite.toUpperCase()}</Text>
+                {isSignedIn && (
+                  <Pressable onPress={() => toggleSave(item)}>
+                    <Text style={[styles.saveIcon, item.saved && styles.saveIconActive]}>
+                      {item.saved ? "♥ saved" : "♡ save"}
+                    </Text>
+                  </Pressable>
+                )}
+              </View>
+            )}
           </View>
         )}
       />
@@ -187,6 +220,9 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
   },
   cite: { fontSize: 11, letterSpacing: 0.5, color: colors.muted, fontFamily: fonts.bodyBold },
+  citeRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" },
+  saveIcon: { fontSize: 11, color: colors.muted, fontFamily: fonts.bodyBold },
+  saveIconActive: { color: colors.living },
   typingRow: { paddingHorizontal: spacing.lg, paddingBottom: 4 },
   suggestions: { flexDirection: "row", gap: 8, paddingHorizontal: spacing.lg, paddingBottom: 8, flexWrap: "wrap" },
   chip: {

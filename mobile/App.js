@@ -14,9 +14,40 @@ import HomeScreen from "./src/screens/HomeScreen";
 import ChatScreen from "./src/screens/ChatScreen";
 import SavedScreen from "./src/screens/SavedScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
+import AuthScreen from "./src/screens/AuthScreen";
+import { AuthProvider, useAuth } from "./src/auth/AuthContext";
 import { colors } from "./src/theme/tokens";
 
 const Stack = createNativeStackNavigator();
+
+function LoadingScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.white }}>
+      <ActivityIndicator color={colors.living} />
+    </View>
+  );
+}
+
+function Navigator() {
+  // Gate the whole navigator behind AsyncStorage resolving, so no screen
+  // ever briefly renders as "guest" before a real signed-in session loads.
+  const { loading } = useAuth();
+  if (loading) return <LoadingScreen />;
+
+  return (
+    <NavigationContainer>
+      <StatusBar style="dark" />
+      <Stack.Navigator initialRouteName="Open" screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Open" component={OpenScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Chat" component={ChatScreen} />
+        <Stack.Screen name="Saved" component={SavedScreen} />
+        <Stack.Screen name="Profile" component={ProfileScreen} />
+        <Stack.Screen name="Auth" component={AuthScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
 export default function App() {
   const [frauncesLoaded] = useFraunces({ Fraunces_600SemiBold, Fraunces_500Medium_Italic });
@@ -24,25 +55,14 @@ export default function App() {
   const [monoLoaded] = useJetBrainsMono({ JetBrainsMono_500Medium });
 
   if (!frauncesLoaded || !manropeLoaded || !monoLoaded) {
-    return (
-      <View style={{ flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.white }}>
-        <ActivityIndicator color={colors.living} />
-      </View>
-    );
+    return <LoadingScreen />;
   }
 
   return (
     <SafeAreaProvider>
-      <NavigationContainer>
-        <StatusBar style="dark" />
-        <Stack.Navigator initialRouteName="Open" screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="Open" component={OpenScreen} />
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Chat" component={ChatScreen} />
-          <Stack.Screen name="Saved" component={SavedScreen} />
-          <Stack.Screen name="Profile" component={ProfileScreen} />
-        </Stack.Navigator>
-      </NavigationContainer>
+      <AuthProvider>
+        <Navigator />
+      </AuthProvider>
     </SafeAreaProvider>
   );
 }

@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import { View, Text, StyleSheet, ScrollView, Pressable } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { useFocusEffect } from "@react-navigation/native";
 import { colors, fonts, radii, spacing } from "../theme/tokens";
+import { useAuth } from "../auth/AuthContext";
+import { getProgress, listChapters } from "../api/client";
 
 function greetingForHour() {
   const h = new Date().getHours();
@@ -17,13 +20,29 @@ const MANTRAS = [
   { name: "Mahāmṛtyuñjaya", sub: "protection" },
 ];
 
-const CHAPTERS = [
-  { num: "CH 01", name: "Arjuna's Grief", verses: "47 verses" },
-  { num: "CH 02", name: "Sāṅkhya Yoga", verses: "72 verses" },
-  { num: "CH 03", name: "Karma Yoga", verses: "43 verses" },
-];
-
 export default function HomeScreen({ navigation }) {
+  const { auth, isSignedIn } = useAuth();
+  const [progress, setProgress] = useState(null);
+  const [chapters, setChapters] = useState([]);
+
+  useFocusEffect(
+    useCallback(() => {
+      if (!isSignedIn) {
+        setProgress(null);
+        return;
+      }
+      getProgress(auth.token)
+        .then((rows) => setProgress(rows[0] || null))
+        .catch(() => setProgress(null));
+    }, [isSignedIn, auth?.token])
+  );
+
+  useFocusEffect(
+    useCallback(() => {
+      listChapters().then(setChapters).catch(() => setChapters([]));
+    }, [])
+  );
+
   return (
     <SafeAreaView style={styles.container} edges={["top"]}>
       <ScrollView contentContainerStyle={{ paddingBottom: 110 }}>
@@ -37,18 +56,33 @@ export default function HomeScreen({ navigation }) {
           </View>
         </View>
 
-        <Pressable style={styles.readyCard} onPress={() => navigation.navigate("Chat")}>
-          <Text style={styles.readyTag}>resume where you left off</Text>
-          <Text style={styles.readyVerse}>
-            "You have a right to your actions, but never to the fruits of your actions."
-          </Text>
-          <View style={styles.readyRow}>
-            <Text style={styles.readyCite}>GITA 2.47</Text>
-            <View style={styles.goCircle}>
-              <Text style={{ color: "#fff" }}>↗</Text>
+        {isSignedIn && progress ? (
+          <Pressable style={styles.readyCard} onPress={() => navigation.navigate("Chat")}>
+            <Text style={styles.readyTag}>resume where you left off</Text>
+            <Text style={styles.readyVerse}>
+              {progress.scripture}, Chapter {progress.chapter}, Verse {progress.verse_number}
+            </Text>
+            <View style={styles.readyRow}>
+              <Text style={styles.readyCite}>
+                {progress.scripture.toUpperCase()} {progress.chapter}.{progress.verse_number}
+              </Text>
+              <View style={styles.goCircle}>
+                <Text style={{ color: "#fff" }}>↗</Text>
+              </View>
             </View>
-          </View>
-        </Pressable>
+          </Pressable>
+        ) : !isSignedIn ? (
+          <Pressable style={styles.readyCard} onPress={() => navigation.navigate("Auth")}>
+            <Text style={styles.readyTag}>browsing as a guest</Text>
+            <Text style={styles.readyVerse}>Sign in to save verses and resume where you left off.</Text>
+            <View style={styles.readyRow}>
+              <Text style={styles.readyCite}>SIGN IN</Text>
+              <View style={styles.goCircle}>
+                <Text style={{ color: "#fff" }}>↗</Text>
+              </View>
+            </View>
+          </Pressable>
+        ) : null}
 
         <Section title="Mantras of the Day" more="see all">
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.hrow}>
@@ -64,21 +98,23 @@ export default function HomeScreen({ navigation }) {
           </ScrollView>
         </Section>
 
-        <Section title="Bhagavad Gītā, by Chapter" more="18 chapters">
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.hrow}>
-            {CHAPTERS.map((c) => (
-              <View key={c.num} style={styles.chapter}>
-                <View style={styles.chapterThumb}>
-                  <Text style={styles.chapterNum}>{c.num}</Text>
+        {chapters.length > 0 && (
+          <Section title="By Chapter" more={`${chapters.length} available`}>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.hrow}>
+              {chapters.map((c) => (
+                <View key={`${c.scripture}-${c.chapter}`} style={styles.chapter}>
+                  <View style={styles.chapterThumb}>
+                    <Text style={styles.chapterNum}>CH {String(c.chapter).padStart(2, "0")}</Text>
+                  </View>
+                  <View style={{ padding: 10 }}>
+                    <Text style={styles.chapterName}>{c.scripture}</Text>
+                    <Text style={styles.chapterVerses}>{c.verse_count} verses</Text>
+                  </View>
                 </View>
-                <View style={{ padding: 10 }}>
-                  <Text style={styles.chapterName}>{c.name}</Text>
-                  <Text style={styles.chapterVerses}>{c.verses}</Text>
-                </View>
-              </View>
-            ))}
-          </ScrollView>
-        </Section>
+              ))}
+            </ScrollView>
+          </Section>
+        )}
       </ScrollView>
 
       <View style={styles.tabbar}>

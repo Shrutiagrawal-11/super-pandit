@@ -36,7 +36,7 @@ def search(question, top_k=None):
     cur = conn.cursor()
     cur.execute(
         """
-        SELECT v.scripture, v.chapter, v.verse_number, v.sanskrit_text,
+        SELECT v.id, v.scripture, v.chapter, v.verse_number, v.sanskrit_text,
                1 - (e.embedding <=> %s) AS similarity
         FROM verse_embeddings e
         JOIN verses v ON v.id = e.verse_id
@@ -48,13 +48,14 @@ def search(question, top_k=None):
     )
     results = [
         {
+            "verse_id": verse_id,
             "scripture": scripture,
             "chapter": chapter,
             "verse_number": verse_number,
             "sanskrit_text": sanskrit_text,
             "similarity": float(similarity),
         }
-        for scripture, chapter, verse_number, sanskrit_text, similarity in cur.fetchall()
+        for verse_id, scripture, chapter, verse_number, sanskrit_text, similarity in cur.fetchall()
     ]
     cur.close()
     conn.close()

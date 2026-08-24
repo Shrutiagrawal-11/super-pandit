@@ -12,6 +12,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from llm.pipeline import answer_question
+from api.auth import router as auth_router
+from api.library import router as library_router
+from api.library_content import router as library_content_router
 
 app = FastAPI(title="AI Pandit API")
 
@@ -22,12 +25,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(auth_router)
+app.include_router(library_router)
+app.include_router(library_content_router)
+
 
 class AskRequest(BaseModel):
     question: str
 
 
 class ContextVerse(BaseModel):
+    verse_id: int
     scripture: str
     chapter: int
     verse_number: int
