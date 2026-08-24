@@ -1,21 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head><title>Scholar Review</title></head>
-<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto;">
-  <h1>Scholar Review — Mismatches Pending Decision</h1>
-  {% if not mismatches %}
-    <p>No mismatched verses awaiting review.</p>
+<body style="font-family: sans-serif; max-width: 900px; margin: 40px auto;">
+  <h1>Scholar Review</h1>
+  <p>Choose exactly one action per verse. Nothing is approved automatically, there is no bulk action, every decision is yours. Already-decided verses aren't gone, switch the status filter below to "Approved" or "All" to look back and correct anything, at any time.</p>
+
+  <form method="get" action="/review" style="margin-bottom: 20px;">
+    <label>Scripture:
+      <select name="scripture" onchange="this.form.submit()">
+        {% for s in scriptures %}
+        <option value="{{ s }}" {% if s == selected_scripture %}selected{% endif %}>{{ s }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Jump to chapter:
+      <select name="chapter" onchange="this.form.submit()">
+        <option value="">All chapters</option>
+        {% for c in chapters %}
+        <option value="{{ c }}" {% if c == selected_chapter %}selected{% endif %}>{{ c }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Status:
+      <select name="status" onchange="this.form.submit()">
+        <option value="pending" {% if selected_status == 'pending' %}selected{% endif %}>Pending (needs review)</option>
+        <option value="approved" {% if selected_status == 'approved' %}selected{% endif %}>Approved (already decided)</option>
+        <option value="needs_review" {% if selected_status == 'needs_review' %}selected{% endif %}>Needs review (flagged for later)</option>
+        <option value="all" {% if selected_status == 'all' %}selected{% endif %}>All</option>
+      </select>
+    </label>
+  </form>
+
+  {% if not verses %}
+    <p>No verses in this view.</p>
   {% endif %}
-  {% for id, scripture, chapter, verse, text, cc_status, s_status in mismatches %}
-  <div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+
+  {% for id, scripture, chapter, verse, text, cc_status, s_status, cc_pairs in verses %}
+  <div class="verse-card" id="verse-{{ id }}" style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
     <strong>{{ scripture }} {{ chapter }}.{{ verse }}</strong>
-    <p>{{ text }}</p>
-    <form action="/review/{{ id }}/decide" method="post" style="display:inline;">
-      <button name="decision" value="approve">APPROVE</button>
-      <button name="decision" value="reject">REJECT</button>
-      <button name="decision" value="needs_review">NEEDS FURTHER REVIEW</button>
+    <span class="status-label" style="color: #666;"> [{{ s_status }}]</span>
+    {% if cc_status == 'mismatch' %}<span style="color: #b30;"> (flagged: differs from cross-check source)</span>{% endif %}
+    {% if cc_status == 'matched' %}<span style="color: #4a4;"> (independent sources agree)</span>{% endif %}
+
+    <p><em>Our text (current):</em><br><span class="current-text">{{ text }}</span></p>
+    {% if cc_pairs %}
+      {% for title, other_text in cc_pairs %}
+      <p><em>{{ title }} says:</em><br>{{ other_text or "(no text found for this verse in this source)" }}</p>
+      {% endfor %}
+    {% else %}
+      <p><em>No cross-check source text recorded for this verse.</em></p>
+    {% endif %}
+
+    <form class="decide-form" data-verse-id="{{ id }}" action="/review/{{ id }}/decide" method="post">
+      <label><input type="radio" name="decision" value="approve_ours" {% if s_status == 'pending' %}checked{% endif %}> Approve — our text is correct</label><br>
+      {% for title, other_text in cc_pairs %}
+      <label><input type="radio" name="decision" value="approve_other:{{ loop.index0 }}"> Approve — "{{ title }}" is correct, replace our text with it</label><br>
+      {% endfor %}
+      <label><input type="radio" name="decision" value="approve_corrected"> {% if s_status == 'approved' %}Edit — this needs a correction, use this text:{% else %}Neither is right, use this corrected text:{% endif %}</label><br>
+      <textarea name="corrected_text" rows="2" style="width: 100%;"></textarea><br>
+      <label><input type="radio" name="decision" value="needs_review"> Needs further review, decide later</label><br>
+      <button type="submit">Submit</button>
+      <span class="save-confirmation" style="color: #4a4; display: none;">Saved.</span>
     </form>
   </div>
   {% endfor %}
+
+  <script>
+    document.querySelectorAll(".decide-form").forEach(function (form) {
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        var verseId = form.getAttribute("data-verse-id");
+        var confirmation = form.querySelector(".save-confirmation");
+        fetch(form.action, { method: "POST", body: new FormData(form) })
+          .then(function (response) {
+            if (!response.ok) {
+              return response.text().then(function (text) {
+                throw new Error(text || "Request failed");
+              });
+            }
+            return response.json();
+          })
+          .then(function (result) {
+            var card = document.getElementById("verse-" + verseId);
+            if (!card) return;
+            var statusLabel = card.querySelector(".status-label");
+            if (statusLabel) statusLabel.textContent = " [" + result.scholar_status + "]";
+            var currentText = card.querySelector(".current-text");
+            if (currentText && result.sanskrit_text) currentText.textContent = result.sanskrit_text;
+            if (confirmation) {
+              confirmation.style.display = "inline";
+              setTimeout(function () { confirmation.style.display = "none"; }, 2000);
+            }
+          })
+          .catch(function (err) {
+            alert("Could not save this decision: " + err.message);
+          });
+      });
+    });
+  </script>
 </body>
 </html>
