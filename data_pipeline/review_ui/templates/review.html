@@ -29,16 +29,26 @@
         <option value="all" {% if selected_status == 'all' %}selected{% endif %}>All</option>
       </select>
     </label>
+    <label>Show:
+      <select name="priority" onchange="this.form.submit()">
+        <option value="all" {% if selected_priority == 'all' %}selected{% endif %}>All (sorted, needs-attention first)</option>
+        <option value="high" {% if selected_priority == 'high' %}selected{% endif %}>Needs attention only</option>
+        <option value="normal" {% if selected_priority == 'normal' %}selected{% endif %}>Normal only</option>
+        <option value="low" {% if selected_priority == 'low' %}selected{% endif %}>Clean/pre-checked only</option>
+      </select>
+    </label>
   </form>
 
   {% if not verses %}
     <p>No verses in this view.</p>
   {% endif %}
 
-  {% for id, scripture, chapter, verse, text, cc_status, s_status, cc_pairs in verses %}
-  <div class="verse-card" id="verse-{{ id }}" style="border: 1px solid #ccc; padding: 10px; margin: 10px 0;">
+  {% for id, scripture, chapter, verse, text, cc_status, s_status, review_priority, cc_pairs in verses %}
+  <div class="verse-card" id="verse-{{ id }}" style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; {% if review_priority == 'low' %}opacity: 0.7;{% endif %}">
     <strong>{{ scripture }} {{ chapter }}.{{ verse }}</strong>
     <span class="status-label" style="color: #666;"> [{{ s_status }}]</span>
+    {% if review_priority == 'high' %}<span style="color: #fff; background: #b30; padding: 1px 6px; border-radius: 3px; font-size: 0.8em;"> NEEDS ATTENTION</span>{% endif %}
+    {% if review_priority == 'low' %}<span style="color: #666; font-size: 0.8em;"> (clean extraction, pre-checked — still fully editable)</span>{% endif %}
     {% if cc_status == 'mismatch' %}<span style="color: #b30;"> (flagged: differs from cross-check source)</span>{% endif %}
     {% if cc_status == 'matched' %}<span style="color: #4a4;"> (independent sources agree)</span>{% endif %}
 

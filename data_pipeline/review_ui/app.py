@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "ingestion"))
 from extract import extract_pages
 from structure import parse_verses
 from compare import compare_verses
+from confidence_check import compute_priority, check_parse
 from write_db import write_comparison_results
 
 import psycopg
@@ -92,6 +93,16 @@ async def ingest(
 
     results = compare_verses(primary["records"], cross_checks)
 
+    # Phase 7 confidence-flagging (architecture.md 2.5 step 4/6): OCR
+    # confidence isn't tracked per-line by extract_pages yet (text-layer
+    # extraction has none; a real per-line OCR score is future work noted
+    # in PENDING.md), so ocr_confidence is None here and priority falls
+    # back to grammar-parse + cross-check signals only.
+    for r in results:
+        r["grammar_parse_ok"] = check_parse(r["primary_text"])
+        r["ocr_confidence"] = None
+        r["review_priority"] = compute_priority(r["cross_check_status"], r["ocr_confidence"], r["grammar_parse_ok"])
+
     global _last_comparison
     _last_comparison = {
         "scripture_name": scripture_name,
@@ -140,11 +151,18 @@ def load_to_database(request: Request):
 
 
 @app.get("/review", response_class=HTMLResponse)
-def review(request: Request, scripture: str = None, chapter: str = None, status: str = "pending"):
+def review(request: Request, scripture: str = None, chapter: str = None, status: str = "pending", priority: str = "all"):
     """Shows every verse, in chapter/verse order, not just the flagged ones,
     per the scholar's request: review flows 1.1, 1.2, 1.3... straight
     through, with each verse's cross-check readings visible whether or not
     it's flagged, so a clean verse is still confirmable, not just skipped.
+
+    review_priority (Phase 7, architecture.md 2.5 step 7) sorts high-priority
+    (likely extraction error / cross-check mismatch) verses first within
+    whatever chapter/status filter is active, and can optionally hide clean,
+    pre-checked ('low') verses via the priority filter -- but "all" (the
+    default) still shows everything, nothing is hidden by default, only
+    reordered so attention goes to what's uncertain first.
 
     Filters by scripture AND chapter (not chapter alone): with more than
     one scripture in the database, "chapter 1" is ambiguous on its own
@@ -170,7 +188,7 @@ def review(request: Request, scripture: str = None, chapter: str = None, status:
     cur.execute(
         """
         SELECT v.id, v.scripture, v.chapter, v.verse_number, v.sanskrit_text,
-               v.cross_check_status, v.scholar_status,
+               v.cross_check_status, v.scholar_status, v.review_priority,
                array_agg(s.title) FILTER (WHERE r.verse_id IS NOT NULL) AS cc_titles,
                array_agg(r.raw_text) FILTER (WHERE r.verse_id IS NOT NULL) AS cc_texts
         FROM verses v
@@ -179,14 +197,15 @@ def review(request: Request, scripture: str = None, chapter: str = None, status:
         WHERE (%(status)s::text = 'all' OR v.scholar_status = %(status)s::text)
           AND (%(scripture)s::text IS NULL OR v.scripture = %(scripture)s::text)
           AND (%(chapter)s::int IS NULL OR v.chapter = %(chapter)s::int)
-        GROUP BY v.id, v.scripture, v.chapter, v.verse_number, v.sanskrit_text, v.cross_check_status, v.scholar_status
-        ORDER BY v.chapter, v.verse_number
+          AND (%(priority)s::text = 'all' OR v.review_priority = %(priority)s::text)
+        GROUP BY v.id, v.scripture, v.chapter, v.verse_number, v.sanskrit_text, v.cross_check_status, v.scholar_status, v.review_priority
+        ORDER BY CASE v.review_priority WHEN 'high' THEN 0 WHEN 'normal' THEN 1 ELSE 2 END, v.chapter, v.verse_number
         """,
-        {"scripture": scripture, "chapter": chapter_int, "status": status},
+        {"scripture": scripture, "chapter": chapter_int, "status": status, "priority": priority},
     )
     verses = [
-        (id_, scripture_, ch, verse, text, cc_status, s_status, list(zip(cc_titles or [], cc_texts or [])))
-        for (id_, scripture_, ch, verse, text, cc_status, s_status, cc_titles, cc_texts) in cur.fetchall()
+        (id_, scripture_, ch, verse, text, cc_status, s_status, r_priority, list(zip(cc_titles or [], cc_texts or [])))
+        for (id_, scripture_, ch, verse, text, cc_status, s_status, r_priority, cc_titles, cc_texts) in cur.fetchall()
     ]
 
     cur.execute("SELECT DISTINCT chapter FROM verses WHERE scripture = %s ORDER BY chapter", (scripture,))
@@ -201,6 +220,7 @@ def review(request: Request, scripture: str = None, chapter: str = None, status:
         "chapters": chapters,
         "selected_chapter": chapter_int,
         "selected_status": status,
+        "selected_priority": priority,
     })
 
 

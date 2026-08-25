@@ -51,6 +51,7 @@ Then open in a browser: **http://localhost:8420/review**
 What the scholar does there:
 - Verses show one at a time, in chapter/verse order, all still "pending."
 - Use the chapter dropdown at the top to jump to a specific chapter.
+- **New (Phase 7): the "Show" dropdown filters/sorts by review priority.** "All" (default) still shows every verse, sorted so anything flagged NEEDS ATTENTION (likely extraction error or cross-check mismatch) comes first; clean, pre-checked verses are dimmed but still fully editable, never hidden or auto-approved. Use "Needs attention only" to speed through a big batch and only stop on the ones actually worth a close look.
 - For each verse, pick exactly one: approve our text, approve a cross-check source's text (if one is shown), or type a corrected text, or mark "needs further review."
 - Type a name in the "your name" box before submitting — every decision is logged with who made it.
 - There's no bulk-approve button anymore (it was removed after an accidental mass-approval earlier) — every verse is a deliberate, individual decision.
@@ -137,9 +138,10 @@ Same pattern as every migration so far, run it straight with psql:
 ```bash
 docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/006_pronunciation.sql
 docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/007_ritual_sessions_fk.sql
+docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/008_ingestion_confidence.sql
 ```
 
-Do this once to pick up the Phase 4 pronunciation tables and the Phase 6 ritual_sessions fix.
+Do this once to pick up the Phase 4 pronunciation tables, the Phase 6 ritual_sessions fix, and Phase 7's confidence-flagging columns.
 
 ## 9. Adding a pronunciation lesson (Phase 4)
 

@@ -37,14 +37,17 @@ def write_comparison_results(scripture_name, primary_source_meta, cross_check_so
     for r in comparison_results:
         cur.execute(
             """
-            INSERT INTO verses (scripture, chapter, verse_number, sanskrit_text, raw_sanskrit_text, source_citation, cross_check_status, primary_source_id)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            INSERT INTO verses (scripture, chapter, verse_number, sanskrit_text, raw_sanskrit_text, source_citation, cross_check_status, primary_source_id, ocr_confidence, grammar_parse_ok, review_priority)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (scripture, chapter, verse_number) DO UPDATE SET
                 sanskrit_text = EXCLUDED.sanskrit_text,
                 raw_sanskrit_text = EXCLUDED.raw_sanskrit_text,
                 source_citation = EXCLUDED.source_citation,
                 cross_check_status = EXCLUDED.cross_check_status,
                 primary_source_id = EXCLUDED.primary_source_id,
+                ocr_confidence = EXCLUDED.ocr_confidence,
+                grammar_parse_ok = EXCLUDED.grammar_parse_ok,
+                review_priority = EXCLUDED.review_priority,
                 updated_at = now()
             WHERE verses.scholar_status NOT IN ('approved', 'rejected')
             RETURNING id
@@ -58,6 +61,9 @@ def write_comparison_results(scripture_name, primary_source_meta, cross_check_so
                 primary_source_meta["title"],
                 r["cross_check_status"],
                 primary_source_id,
+                r.get("ocr_confidence"),
+                r.get("grammar_parse_ok"),
+                r.get("review_priority", "normal"),
             ),
         )
         row = cur.fetchone()

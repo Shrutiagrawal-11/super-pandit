@@ -96,11 +96,21 @@ Not urgent, but worth deciding when you're ready to prioritize:
 - **What's actually needed from you, per PROJECT_PLAN.md Phase 6**: author and get scholar sign-off on actual ritual content. Nothing shows up in the app until a `rituals` row exists with `status='approved'`. A ritual's `procedure_steps` is authored as one complete ordered JSON array up front (each step optionally naming a `mantra_verse_id`) — see `OPERATIONS.md` for the exact insert format and an example.
 - **Explicitly not built here, by design**: camera-based auto-advance (that's Phase 10, deliberately separate — see architecture.md 2.3d). This phase is manual "done" confirmation only.
 
+## 14. Phase 5 (daily practice tracking) — fully built and usable right now
+
 - **What's built**: streak calculation (`/practice/streak`, computed live from the append-only `practice_sessions` log, never stored/cached so it can't drift), a rotating daily reflection prompt (`/practice/today`, `/practice/log`), practice history (`/practice/history`), and a full mobile screen with a streak card, today's prompt with a "mark as reflected" button, and a scrollable history list. Linked from Home for signed-in users.
 - **No content or model dependency here** — this phase works today with zero further input from you, since it just tracks what a signed-in user actually does in the app.
 - **Not built (a deliberate cut, not an oversight)**: push notification reminders. PROJECT_PLAN.md mentions "reminders/notifications" for Phase 5; that needs a notification-service decision (Expo push tokens, a backend job to send them) that's a separate, larger piece of infrastructure — flag if you want this prioritized next.
 
-## 16. Old, still-open item from an earlier session
+## 16. Phase 7 (automated ingestion pipeline) — code built, mostly usable now
+
+- **What was already there before this round**: the actual extraction/structuring/cross-check/scholar-review tool (`data_pipeline/review_ui/`) already existed and works, that's what you've been using for the Gita/Isha Upanishad/Vishnu Sahasranama. Phase 7 in `PROJECT_PLAN.md` is specifically about *automating the mechanical steps and confidence-flagging on top of that*, not building ingestion from scratch.
+- **What's newly built**: a grammar-parse check (`backend/app/grammar/sandhi_parser.py`, using `sanskrit_parser`) run automatically on every extracted line during `/ingest`; a `review_priority` (`low`/`normal`/`high`) computed from grammar-parse success + cross-check agreement (`data_pipeline/ingestion/confidence_check.py`); the scholar review page now sorts high-priority (likely extraction errors or cross-check mismatches) to the top and lets you filter to just those, while still showing everything by default — nothing is hidden, per architecture.md's "shown but pre-checked, not hidden" rule. New DB columns via migration `008_ingestion_confidence.sql` (not yet applied).
+- **`sanskrit_parser` needs to actually be installed and working** (`pip install sanskrit_parser` in the venv) for the grammar-parse signal to do anything — if it's not installed, `grammar_parse_ok` just stays NULL and priority falls back to cross-check status alone, it doesn't break anything either way.
+- **Not built, a genuine content-sourcing task, not a code gap**: per-line OCR confidence isn't tracked yet, `pytesseract` can return per-word confidence scores but `extract.py` doesn't currently capture them. Low priority to add unless you're about to ingest a heavily-scanned (non-digital) source, since GRETIL/DCS-sourced text has no OCR step at all.
+- **"Prefer digital sources over scanning" (architecture.md 2.5 step 2)**: this is a workflow decision for you when picking a next source, not something enforced in code.
+
+## 17. Old, still-open item from an earlier session
 
 - **What**: an 1880 Nawal Kishor Press Hindi Gita edition on Archive.org was found to have unusably corrupted OCR text; a re-OCR test with Tesseract's Sanskrit/Hindi trained data was started but never finished or reported on.
 - **Status**: unresolved, not revisited in the most recent session. Worth deciding whether to pick this back up or use a different Hindi source entirely.
