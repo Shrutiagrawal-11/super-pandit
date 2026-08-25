@@ -2,7 +2,7 @@
 // through ngrok because the router's client isolation blocks direct LAN
 // access between phone and Mac. Restart with `ngrok http 8000` and update
 // this URL whenever the tunnel restarts (free ngrok URLs aren't stable).
-const API_BASE_URL = "https://sleet-wielder-good.ngrok-free.dev";
+export const API_BASE_URL = "https://sleet-wielder-good.ngrok-free.dev";
 
 async function request(path, { method = "GET", body, token, timeoutMs = 30000 } = {}) {
   const headers = { "Content-Type": "application/json", "ngrok-skip-browser-warning": "true" };

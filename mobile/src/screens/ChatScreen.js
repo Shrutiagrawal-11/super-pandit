@@ -15,6 +15,8 @@ import { usePreventScreenCapture } from "expo-screen-capture";
 import { colors, fonts, radii, spacing } from "../theme/tokens";
 import { askPandit, saveVerse, setProgress } from "../api/client";
 import { useAuth } from "../auth/AuthContext";
+import { useVoiceInput, isVoiceAvailable, speakAnswer, stopSpeaking } from "../voice/useVoice";
+import { usePlayVerseAudio } from "../voice/useVersePlayer";
 
 const SUGGESTIONS = ["fear of failure", "how do I stop overthinking?", "what is dharma?"];
 
@@ -33,6 +35,12 @@ export default function ChatScreen({ navigation }) {
   const [input, setInput] = useState("");
   const [thinking, setThinking] = useState(false);
   const listRef = useRef(null);
+  const playVerseAudio = usePlayVerseAudio();
+  const { listening, start: startListening, stop: stopListening } = useVoiceInput((transcript) => {
+    ask(transcript);
+  });
+
+  React.useEffect(() => stopSpeaking, []);
 
   async function ask(question) {
     if (!question.trim() || thinking) return;
@@ -52,6 +60,7 @@ export default function ChatScreen({ navigation }) {
           verse: verse ? verse.sanskrit_text : null,
           cite: verse ? `${verse.scripture} ${verse.chapter}.${verse.verse_number}` : null,
           verseId: verse ? verse.verse_id : null,
+          audioUrl: verse ? verse.audio_url : null,
           saved: false,
         },
       ]);
@@ -110,7 +119,19 @@ export default function ChatScreen({ navigation }) {
         onContentSizeChange={() => listRef.current?.scrollToEnd({ animated: true })}
         renderItem={({ item }) => (
           <View style={[styles.bubble, item.role === "user" ? styles.bubbleUser : styles.bubblePandit]}>
-            <Text style={item.role === "user" ? styles.userText : styles.panditText}>{item.text}</Text>
+            <View style={styles.bubbleTextRow}>
+              <Text style={[item.role === "user" ? styles.userText : styles.panditText, { flex: 1 }]}>
+                {item.text}
+              </Text>
+              {item.role === "pandit" && (
+                <Pressable
+                  onPress={() => (item.audioUrl ? playVerseAudio(item.audioUrl) : speakAnswer(item.text))}
+                  hitSlop={8}
+                >
+                  <Text style={styles.speakIcon}>🔊</Text>
+                </Pressable>
+              )}
+            </View>
             {item.verse && (
               <Text style={styles.verse}>{item.verse}</Text>
             )}
@@ -155,6 +176,15 @@ export default function ChatScreen({ navigation }) {
             onSubmitEditing={() => ask(input)}
             editable={!thinking}
           />
+          {isVoiceAvailable() && (
+            <Pressable
+              style={[styles.micButton, listening && styles.micButtonActive]}
+              onPress={() => (listening ? stopListening() : startListening())}
+              disabled={thinking}
+            >
+              <Text style={{ fontSize: 16 }}>{listening ? "●" : "🎤"}</Text>
+            </Pressable>
+          )}
           <Pressable
             style={[styles.sendButton, thinking && styles.sendButtonDisabled]}
             disabled={thinking}
@@ -204,6 +234,8 @@ const styles = StyleSheet.create({
   headerStateActive: { color: colors.living },
   thread: { padding: spacing.lg, gap: 14 },
   bubble: { borderRadius: radii.md, padding: 14, maxWidth: "82%" },
+  bubbleTextRow: { flexDirection: "row", alignItems: "flex-start", gap: 8 },
+  speakIcon: { fontSize: 14, opacity: 0.6 },
   bubbleUser: { alignSelf: "flex-end", backgroundColor: colors.ink },
   bubblePandit: { alignSelf: "flex-start", backgroundColor: colors.panel, borderWidth: 1, borderColor: colors.line },
   userText: { color: "#fff", fontSize: 14, lineHeight: 21 },
@@ -257,4 +289,12 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   sendButtonDisabled: { opacity: 0.35 },
+  micButton: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  micButtonActive: { backgroundColor: colors.living + "22" },
 });
