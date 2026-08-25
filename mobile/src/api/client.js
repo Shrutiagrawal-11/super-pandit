@@ -111,3 +111,27 @@ export function getStreak(token) {
 export function getPracticeHistory(token) {
   return request("/practice/history", { token });
 }
+
+export function listRituals() {
+  return request("/rituals");
+}
+
+export function getRitual(ritualId) {
+  return request(`/rituals/${ritualId}`);
+}
+
+export function startRitualSession(ritualId, token) {
+  return request(`/rituals/${ritualId}/sessions`, { method: "POST", token });
+}
+
+export function getRitualStep(sessionId, token) {
+  return request(`/rituals/sessions/${sessionId}`, { token });
+}
+
+export function confirmRitualStep(sessionId, token) {
+  return request(`/rituals/sessions/${sessionId}/confirm-step`, { method: "POST", token });
+}
+
+export function abandonRitualSession(sessionId, token) {
+  return request(`/rituals/sessions/${sessionId}/abandon`, { method: "POST", token });
+}

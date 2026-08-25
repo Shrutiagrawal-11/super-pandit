@@ -18,9 +18,8 @@ from api.library import router as library_router
 from api.library_content import router as library_content_router
 from api.pronunciation import router as pronunciation_router
 from api.practice import router as practice_router
-
-VERSE_AUDIO_DIR = Path(__file__).parent.parent / "static" / "verse_audio"
-VERSE_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+from api.rituals import router as rituals_router
+from retrieval.verse_audio import VERSE_AUDIO_DIR, verse_audio_path
 
 app = FastAPI(title="AI Pandit API")
 
@@ -36,17 +35,8 @@ app.include_router(library_router)
 app.include_router(library_content_router)
 app.include_router(pronunciation_router)
 app.include_router(practice_router)
+app.include_router(rituals_router)
 app.mount("/verse_audio", StaticFiles(directory=VERSE_AUDIO_DIR), name="verse_audio")
-
-
-def verse_audio_path(scripture, chapter, verse_number):
-    """Filename convention Vagdhenu output must be dropped into, per
-    OPERATIONS.md Section 8. No DB column for this: presence on disk is
-    the source of truth, since rendering happens on a separate GPU machine
-    and this only needs to answer "does verified audio exist right now".
-    """
-    slug = f"{scripture.lower().replace(' ', '_')}_{chapter}_{verse_number}.wav"
-    return VERSE_AUDIO_DIR / slug, slug
 
 
 class AskRequest(BaseModel):

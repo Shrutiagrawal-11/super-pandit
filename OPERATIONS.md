@@ -136,9 +136,10 @@ Same pattern as every migration so far, run it straight with psql:
 
 ```bash
 docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/006_pronunciation.sql
+docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/007_ritual_sessions_fk.sql
 ```
 
-Do this once to pick up the Phase 4 pronunciation tables.
+Do this once to pick up the Phase 4 pronunciation tables and the Phase 6 ritual_sessions fix.
 
 ## 9. Adding a pronunciation lesson (Phase 4)
 
@@ -165,6 +166,28 @@ A lesson only shows up in the app once `status = 'approved'`.
 ## 10. Phase 5 (daily practice tracking)
 
 Nothing to run, this works as soon as the API server is up. Streaks and history are computed live from the `practice_sessions` table (already existed in the schema, just unused until now). Pronunciation attempts (Phase 4) automatically log into the same streak.
+
+## 10b. Adding a ritual (Phase 6)
+
+A ritual's full step sequence and mantra placement is authored as one complete unit up front (never assembled piecemeal), then reviewed and approved as a whole, same trust bar as scripture text. `procedure_steps` is a JSON array of `{"instruction": "...", "mantra_verse_id": <verses.id or null>}`, in the exact order the pandit should deliver them.
+
+```bash
+docker exec yantras-db-1 psql -U pandit -d ai_pandit -c "
+INSERT INTO rituals (name, tradition_region, materials, preparation_steps, procedure_steps, source_citation, status, reviewed_by)
+VALUES (
+  'Diwali Pooja',
+  'North Indian',
+  '[{\"item\": \"diya\", \"quantity\": \"1\", \"note\": null}, {\"item\": \"ghee\", \"quantity\": \"small bowl\", \"note\": null}, {\"item\": \"cotton wicks\", \"quantity\": \"2-3\", \"note\": null}]',
+  '[\"Clean the pooja area\", \"Arrange the idols/images facing east\"]',
+  '[{\"instruction\": \"Light the diya with ghee\", \"mantra_verse_id\": null}, {\"instruction\": \"Offer flowers to Lakshmi while reciting the invocation\", \"mantra_verse_id\": 12}]',
+  'your source here',
+  'approved',
+  'your name'
+);
+"
+```
+
+If a step names a `mantra_verse_id`, the app recites it using whatever Vagdhenu audio exists for that verse (Section 11) — same file, same naming convention as Phase 3's verse playback, nothing separate to render for rituals.
 
 ---
 

@@ -97,6 +97,13 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
 
+        {isSignedIn && (
+          <Pressable style={styles.ritualBanner} onPress={() => navigation.navigate("Rituals")}>
+            <Text style={styles.ritualBannerLabel}>Guided rituals</Text>
+            <Text style={styles.ritualBannerSub}>Live, step-by-step pooja guidance</Text>
+          </Pressable>
+        )}
+
         <Section title="Mantras of the Day" more="see all">
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.hrow}>
             {MANTRAS.map((m) => (
@@ -233,6 +240,17 @@ const styles = StyleSheet.create({
   },
   practiceLabel: { fontSize: 12, fontFamily: fonts.bodyBold, color: colors.ink },
   practiceGo: { fontSize: 14, color: colors.muted },
+  ritualBanner: {
+    marginHorizontal: spacing.lg,
+    marginBottom: 24,
+    borderRadius: radii.md,
+    backgroundColor: colors.panel,
+    borderWidth: 1,
+    borderColor: colors.line,
+    padding: 14,
+  },
+  ritualBannerLabel: { fontSize: 13, fontFamily: fonts.bodyBold, color: colors.ink, marginBottom: 2 },
+  ritualBannerSub: { fontSize: 11, color: colors.muted },
   sectionHead: {
     flexDirection: "row",
     justifyContent: "space-between",

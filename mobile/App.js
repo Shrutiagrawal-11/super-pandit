@@ -17,6 +17,7 @@ import ProfileScreen from "./src/screens/ProfileScreen";
 import AuthScreen from "./src/screens/AuthScreen";
 import PronunciationScreen from "./src/screens/PronunciationScreen";
 import PracticeTrackerScreen from "./src/screens/PracticeTrackerScreen";
+import RitualGuideScreen from "./src/screens/RitualGuideScreen";
 import { AuthProvider, useAuth } from "./src/auth/AuthContext";
 import { colors } from "./src/theme/tokens";
 
@@ -48,6 +49,7 @@ function Navigator() {
         <Stack.Screen name="Auth" component={AuthScreen} />
         <Stack.Screen name="Pronunciation" component={PronunciationScreen} />
         <Stack.Screen name="Practice" component={PracticeTrackerScreen} />
+        <Stack.Screen name="Rituals" component={RitualGuideScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

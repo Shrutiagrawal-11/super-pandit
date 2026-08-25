@@ -42,13 +42,12 @@ This is a running list of what's waiting on you specifically, not on more code. 
 
 - **Speech-to-text**: built, via `expo-speech-recognition` (wraps the phone's built-in recognizer). Mic button in ChatScreen fills the input and auto-asks.
 - **English text-to-speech**: built, via `expo-speech`. Speaker icon on each pandit reply reads the plain-language answer aloud.
-- **Sanskrit verse audio**: backend now serves `/verse_audio/{slug}.wav` and `/ask` tells the client whether verified audio exists for the cited verse (`audio_url`). The speaker icon plays that file when present — it never runs the Sanskrit line through generic TTS. **This is empty until you run the Vagdhenu render (item 3) and drop files into `backend/app/static/verse_audio/` using the naming convention in `verse_audio_path()` in `backend/app/api/main.py`** (e.g. `bhagavad_gita_2_47.wav`).
+- **Sanskrit verse audio**: backend now serves `/verse_audio/{slug}.wav` and `/ask` tells the client whether verified audio exists for the cited verse (`audio_url`). The speaker icon plays that file when present — it never runs the Sanskrit line through generic TTS. **This is empty until you run the Vagdhenu render (item 3) and drop files into `backend/app/static/verse_audio/` using the naming convention in `verse_audio_path()` in `backend/app/retrieval/verse_audio.py`** (e.g. `bhagavad_gita_2_47.wav`). This same audio is reused for mantra recitation in Phase 6 rituals below, no separate render needed.
 - **Important**: `expo-speech-recognition` is a native module — it will NOT work in Expo Go. You need a dev build (`npx expo run:ios` / `npx expo run:android`, or an EAS dev build) to test the mic button. Everything else (TTS, verse audio playback) works fine in Expo Go.
 
 ## 6. Decide when to build later phases
 
 Not urgent, but worth deciding when you're ready to prioritize:
-- Phase 6: Live-guided ritual sessions (e.g. full pooja, manual step-confirmation)
 - Phase 7: Broader corpus expansion + automated ingestion pipeline
 - Phase 8: Video (AI pandit avatar)
 - Phase 9: Scale/hardening
@@ -91,13 +90,17 @@ Not urgent, but worth deciding when you're ready to prioritize:
   2. Train (or otherwise obtain) the real scoring model, and swap it into `scorer.py`.
 - **Every pronunciation attempt also counts toward the Phase 5 daily streak automatically** (logged as activity_type `pronunciation`), so no separate wiring needed between the two features.
 
-## 14. Phase 5 (daily practice tracking) — fully built and usable right now
+## 15. Phase 6 (live-guided ritual sessions) — code built, blocked on ritual authoring + scholar sign-off
+
+- **What's built**: `ritual_sessions` now has a real FK to `users` (migration `007_ritual_sessions_fk.sql`, not yet applied). Endpoints for listing approved rituals, viewing materials/prep upfront, starting a session, reading the current step, and confirming a step (advances exactly one step, no auto-advance). Mobile screen (`RitualGuideScreen`) walks: ritual list → materials checklist → live one-step-at-a-time session with a "done, next step" button and mantra recitation (reusing Phase 3 verse audio, falls back to nothing spoken if that verse's audio isn't rendered yet — it never runs Sanskrit through generic TTS). Session progress is stored server-side, so closing the app mid-ritual and reopening resumes at the right step.
+- **What's actually needed from you, per PROJECT_PLAN.md Phase 6**: author and get scholar sign-off on actual ritual content. Nothing shows up in the app until a `rituals` row exists with `status='approved'`. A ritual's `procedure_steps` is authored as one complete ordered JSON array up front (each step optionally naming a `mantra_verse_id`) — see `OPERATIONS.md` for the exact insert format and an example.
+- **Explicitly not built here, by design**: camera-based auto-advance (that's Phase 10, deliberately separate — see architecture.md 2.3d). This phase is manual "done" confirmation only.
 
 - **What's built**: streak calculation (`/practice/streak`, computed live from the append-only `practice_sessions` log, never stored/cached so it can't drift), a rotating daily reflection prompt (`/practice/today`, `/practice/log`), practice history (`/practice/history`), and a full mobile screen with a streak card, today's prompt with a "mark as reflected" button, and a scrollable history list. Linked from Home for signed-in users.
 - **No content or model dependency here** — this phase works today with zero further input from you, since it just tracks what a signed-in user actually does in the app.
 - **Not built (a deliberate cut, not an oversight)**: push notification reminders. PROJECT_PLAN.md mentions "reminders/notifications" for Phase 5; that needs a notification-service decision (Expo push tokens, a backend job to send them) that's a separate, larger piece of infrastructure — flag if you want this prioritized next.
 
-## 15. Old, still-open item from an earlier session
+## 16. Old, still-open item from an earlier session
 
 - **What**: an 1880 Nawal Kishor Press Hindi Gita edition on Archive.org was found to have unusably corrupted OCR text; a re-OCR test with Tesseract's Sanskrit/Hindi trained data was started but never finished or reported on.
 - **Status**: unresolved, not revisited in the most recent session. Worth deciding whether to pick this back up or use a different Hindi source entirely.
