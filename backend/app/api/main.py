@@ -16,6 +16,8 @@ from llm.pipeline import answer_question
 from api.auth import router as auth_router
 from api.library import router as library_router
 from api.library_content import router as library_content_router
+from api.pronunciation import router as pronunciation_router
+from api.practice import router as practice_router
 
 VERSE_AUDIO_DIR = Path(__file__).parent.parent / "static" / "verse_audio"
 VERSE_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
@@ -32,6 +34,8 @@ app.add_middleware(
 app.include_router(auth_router)
 app.include_router(library_router)
 app.include_router(library_content_router)
+app.include_router(pronunciation_router)
+app.include_router(practice_router)
 app.mount("/verse_audio", StaticFiles(directory=VERSE_AUDIO_DIR), name="verse_audio")
 
 

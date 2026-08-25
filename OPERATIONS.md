@@ -130,7 +130,45 @@ pkill -f "ngrok http"
 
 ---
 
-## 8. Running the Vāgdhenu Sanskrit audio render (on your GPU machine)
+## 8. Applying a new database migration
+
+Same pattern as every migration so far, run it straight with psql:
+
+```bash
+docker exec -i yantras-db-1 psql -U pandit -d ai_pandit < backend/app/db/migrations/006_pronunciation.sql
+```
+
+Do this once to pick up the Phase 4 pronunciation tables.
+
+## 9. Adding a pronunciation lesson (Phase 4)
+
+Once `006_pronunciation.sql` is applied and you have a reviewed reference recording for a verse:
+
+1. Serve the recording as a static file (same pattern as verse audio, `backend/app/static/verse_audio/`, see Section 11 — you can add these under a `backend/app/static/pronunciation_reference/` folder and mount it in `main.py` the same way `verse_audio` is mounted, if you want the app to actually play it).
+2. Insert the lesson:
+
+```bash
+docker exec yantras-db-1 psql -U pandit -d ai_pandit -c "
+INSERT INTO pronunciation_lessons (verse_id, reference_audio_url, transliteration, status, reviewed_by)
+VALUES (
+  (SELECT id FROM verses WHERE scripture = 'Bhagavad Gita' AND chapter = 2 AND verse_number = 47),
+  '/pronunciation_reference/gita_2_47.wav',
+  'karmanyevadhikaraste ma phaleshu kadachana',
+  'approved',
+  'your name'
+);
+"
+```
+
+A lesson only shows up in the app once `status = 'approved'`.
+
+## 10. Phase 5 (daily practice tracking)
+
+Nothing to run, this works as soon as the API server is up. Streaks and history are computed live from the `practice_sessions` table (already existed in the schema, just unused until now). Pronunciation attempts (Phase 4) automatically log into the same streak.
+
+---
+
+## 11. Running the Vāgdhenu Sanskrit audio render (on your GPU machine)
 
 Do this on your other machine (the one with the Nvidia GPU), not this Mac — Vāgdhenu needs CUDA, which Apple Silicon doesn't have.
 

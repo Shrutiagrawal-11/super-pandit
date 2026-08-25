@@ -48,8 +48,6 @@ This is a running list of what's waiting on you specifically, not on more code. 
 ## 6. Decide when to build later phases
 
 Not urgent, but worth deciding when you're ready to prioritize:
-- Phase 4: Shloka pronunciation training (Duolingo-style)
-- Phase 5: Daily practice tracking
 - Phase 6: Live-guided ritual sessions (e.g. full pooja, manual step-confirmation)
 - Phase 7: Broader corpus expansion + automated ingestion pipeline
 - Phase 8: Video (AI pandit avatar)
@@ -84,7 +82,22 @@ Not urgent, but worth deciding when you're ready to prioritize:
 - **What**: when comparing against HinduAI (a similar-looking competitor), the real differentiator found was: they're explicitly "inspired by" scripture with no verified-citation guardrail, this product is "grounded in" scripture with a real guardrail that refuses to answer outside retrieved context.
 - **Open question, not yet decided**: most users won't perceive that difference unless the app's own UI makes it legible somehow (a visible "verified" indicator, a citation-always-shown pattern, some explicit trust signal). This is a product/UX decision for later, not a coded feature yet.
 
-## 12. Old, still-open item from an earlier session
+## 13. Phase 4 (pronunciation training) — code built, blocked on real content + a trained model
+
+- **What's built**: `pronunciation_lessons` / `pronunciation_attempts` tables (migration `006_pronunciation.sql`, not yet applied — run it the same way you ran the earlier migration files), `/pronunciation/lessons`, `/pronunciation/attempts`, `/pronunciation/history` endpoints, and a full mobile screen (lesson list, record-and-score flow, per-syllable feedback).
+- **Scoring is a stub right now** (`backend/app/pronunciation/scorer.py`, `SCORER_VERSION = "stub-v0"`): it returns random correct/incorrect per syllable, just to keep the app usable end-to-end. Swap its body for a real wav2vec2/Montreal Forced Aligner model once trained, no other code needs to change.
+- **What's actually needed from you, per PROJECT_PLAN.md Phase 4**:
+  1. Source verified reference-pronunciation recordings (scholar/pandit-recorded) for whichever shlokas you want to teach first. Insert them into `pronunciation_lessons` with `reference_audio_url` and `status='approved'` once reviewed. Until a lesson has approved status, it won't show up in the app.
+  2. Train (or otherwise obtain) the real scoring model, and swap it into `scorer.py`.
+- **Every pronunciation attempt also counts toward the Phase 5 daily streak automatically** (logged as activity_type `pronunciation`), so no separate wiring needed between the two features.
+
+## 14. Phase 5 (daily practice tracking) — fully built and usable right now
+
+- **What's built**: streak calculation (`/practice/streak`, computed live from the append-only `practice_sessions` log, never stored/cached so it can't drift), a rotating daily reflection prompt (`/practice/today`, `/practice/log`), practice history (`/practice/history`), and a full mobile screen with a streak card, today's prompt with a "mark as reflected" button, and a scrollable history list. Linked from Home for signed-in users.
+- **No content or model dependency here** — this phase works today with zero further input from you, since it just tracks what a signed-in user actually does in the app.
+- **Not built (a deliberate cut, not an oversight)**: push notification reminders. PROJECT_PLAN.md mentions "reminders/notifications" for Phase 5; that needs a notification-service decision (Expo push tokens, a backend job to send them) that's a separate, larger piece of infrastructure — flag if you want this prioritized next.
+
+## 15. Old, still-open item from an earlier session
 
 - **What**: an 1880 Nawal Kishor Press Hindi Gita edition on Archive.org was found to have unusably corrupted OCR text; a re-OCR test with Tesseract's Sanskrit/Hindi trained data was started but never finished or reported on.
 - **Status**: unresolved, not revisited in the most recent session. Worth deciding whether to pick this back up or use a different Hindi source entirely.

@@ -72,3 +72,42 @@ export function setProgress(scripture, chapter, verseNumber, token) {
     token,
   });
 }
+
+export function listLessons() {
+  return request("/pronunciation/lessons");
+}
+
+export function submitAttempt(lessonId, audioUri, token) {
+  const headers = { "ngrok-skip-browser-warning": "true" };
+  if (token) headers["Authorization"] = `Bearer ${token}`;
+  const form = new FormData();
+  form.append("audio", { uri: audioUri, name: "attempt.m4a", type: "audio/m4a" });
+  return fetch(`${API_BASE_URL}/pronunciation/attempts?lesson_id=${lessonId}`, {
+    method: "POST",
+    headers,
+    body: form,
+  }).then((r) => {
+    if (!r.ok) throw new Error(`Request failed: ${r.status}`);
+    return r.json();
+  });
+}
+
+export function getPronunciationHistory(token) {
+  return request("/pronunciation/history", { token });
+}
+
+export function getTodayPrompt() {
+  return request("/practice/today");
+}
+
+export function logPractice(activityType, score, token) {
+  return request("/practice/log", { method: "POST", body: { activity_type: activityType, score }, token });
+}
+
+export function getStreak(token) {
+  return request("/practice/streak", { token });
+}
+
+export function getPracticeHistory(token) {
+  return request("/practice/history", { token });
+}

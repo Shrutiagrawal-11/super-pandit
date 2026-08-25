@@ -84,6 +84,19 @@ export default function HomeScreen({ navigation }) {
           </Pressable>
         ) : null}
 
+        {isSignedIn && (
+          <View style={styles.practiceRow}>
+            <Pressable style={styles.practiceCard} onPress={() => navigation.navigate("Practice")}>
+              <Text style={styles.practiceLabel}>Daily practice</Text>
+              <Text style={styles.practiceGo}>↗</Text>
+            </Pressable>
+            <Pressable style={styles.practiceCard} onPress={() => navigation.navigate("Pronunciation")}>
+              <Text style={styles.practiceLabel}>Pronunciation</Text>
+              <Text style={styles.practiceGo}>↗</Text>
+            </Pressable>
+          </View>
+        )}
+
         <Section title="Mantras of the Day" more="see all">
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.hrow}>
             {MANTRAS.map((m) => (
@@ -206,6 +219,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  practiceRow: { flexDirection: "row", gap: 11, paddingHorizontal: spacing.lg, marginBottom: 24 },
+  practiceCard: {
+    flex: 1,
+    borderRadius: radii.md,
+    borderWidth: 1,
+    borderColor: colors.line,
+    backgroundColor: "#fff",
+    padding: 14,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+  practiceLabel: { fontSize: 12, fontFamily: fonts.bodyBold, color: colors.ink },
+  practiceGo: { fontSize: 14, color: colors.muted },
   sectionHead: {
     flexDirection: "row",
     justifyContent: "space-between",

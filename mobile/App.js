@@ -15,6 +15,8 @@ import ChatScreen from "./src/screens/ChatScreen";
 import SavedScreen from "./src/screens/SavedScreen";
 import ProfileScreen from "./src/screens/ProfileScreen";
 import AuthScreen from "./src/screens/AuthScreen";
+import PronunciationScreen from "./src/screens/PronunciationScreen";
+import PracticeTrackerScreen from "./src/screens/PracticeTrackerScreen";
 import { AuthProvider, useAuth } from "./src/auth/AuthContext";
 import { colors } from "./src/theme/tokens";
 
@@ -44,6 +46,8 @@ function Navigator() {
         <Stack.Screen name="Saved" component={SavedScreen} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="Auth" component={AuthScreen} />
+        <Stack.Screen name="Pronunciation" component={PronunciationScreen} />
+        <Stack.Screen name="Practice" component={PracticeTrackerScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
